@@ -1,7 +1,7 @@
 import Image from "next/image";
 import bgImage from "@/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
 import contactImage from "@/assets/images/contact.svg";
-import Iconify from "@/app/components/Iconify";
+import Iconify from "@/components/Iconify";
 
 const contacts = [
   {

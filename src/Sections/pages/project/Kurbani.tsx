@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import DonateButton from "@/app/components/DonateButton";
-import SectionTitle from "@/app/components/SectionTitle";
+import DonateButton from "@/components/DonateButton";
+import SectionTitle from "@/components/SectionTitle";
 import GetDonate from "@/Sections/Common/GetDonate";
 import ImageGrid from "@/Sections/Common/ImageGrid";
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionTitle from "@/app/components/SectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 import { ourWorkPart } from "@/constants/ourWorkPart";
 
 interface ReviewCardPropsType {

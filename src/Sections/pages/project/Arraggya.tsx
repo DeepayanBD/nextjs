@@ -1,8 +1,8 @@
 import Image from "next/image";
 import GetDonate from "@/Sections/Common/GetDonate";
 import ImageGrid from "@/Sections/Common/ImageGrid";
-import SectionTitle from "@/app/components/SectionTitle";
-import DonateButton from "@/app/components/DonateButton";
+import SectionTitle from "@/components/SectionTitle";
+import DonateButton from "@/components/DonateButton";
 import OurSupporters from "@/Sections/Common/OurSupporters";
 
 import sideImage from "@/assets/uploads/arraggya/WhatsApp-Image-2022-10-17-at-10.15.50-PM.jpeg";

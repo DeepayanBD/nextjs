@@ -1,4 +1,4 @@
-import DonateButton from "@/app/components/DonateButton";
+import DonateButton from "@/components/DonateButton";
 
 export default function Donate() {
   return (

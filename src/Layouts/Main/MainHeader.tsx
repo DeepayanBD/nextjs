@@ -3,11 +3,11 @@
 import React from "react";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import ApplicationLogo from "@/app/components/ApplicationLogo";
-import DarkModeToggle from "@/app/components/DarkModeToggle";
+import ApplicationLogo from "@/components/ApplicationLogo";
+import DarkModeToggle from "@/components/DarkModeToggle";
 import MainNavbar from "./MainNavbar";
 import { mainNavConfig } from "@/constants/mainNavConfig";
-import DonateButton from "@/app/components/DonateButton";
+import DonateButton from "@/components/DonateButton";
 import Link from "next/link";
 
 interface NavItemPropsType {
