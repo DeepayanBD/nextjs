@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SectionTitle from "@/components/SectionTitle";
+import SectionTitle from "@/app/components/SectionTitle";
 
 export default function GetDonate() {
   return (

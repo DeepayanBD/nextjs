@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PropsWithChildren } from "react";
-import ApplicationLogo from "@/components/ApplicationLogo";
+import ApplicationLogo from "@/app/components/ApplicationLogo";
 
 export default function Guest({ children }: PropsWithChildren) {
   return (

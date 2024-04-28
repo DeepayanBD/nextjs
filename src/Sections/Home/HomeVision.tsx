@@ -1,6 +1,6 @@
 import Image from "next/image";
 import banner from "@/assets/uploads/banner-02.jpg";
-import SectionTitle from "@/components/SectionTitle";
+import SectionTitle from "@/app/components/SectionTitle";
 import sideImage from "@/assets/uploads/WhatsApp-Image-2022-03-29-at-11.19.24-AM-1024x768.jpeg";
 
 export default function HomeVision() {
