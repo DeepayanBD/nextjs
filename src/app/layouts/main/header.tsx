@@ -5,9 +5,9 @@ import Link from "next/link";
 
 import MainNavbar from "./navbar";
 
-import DonateButton from "@/app/components/DonateButton";
-import DarkModeToggle from "@/app/components/DarkModeToggle";
-import ApplicationLogo from "@/app/components/ApplicationLogo";
+import DonateButton from "@/app/components/donate-button";
+import DarkModeToggle from "@/app/components/dark-mode-toggle";
+import ApplicationLogo from "@/app/components/logo";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import { mainNavConfig } from "@/app/constants/mainNavConfig";

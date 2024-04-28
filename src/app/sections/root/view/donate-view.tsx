@@ -1,4 +1,4 @@
-import DonateButton from "@/app/components/DonateButton";
+import DonateButton from "@/app/components/donate-button";
 import Iconify from "@/app/components/Iconify";
 
 export default function DonateView() {

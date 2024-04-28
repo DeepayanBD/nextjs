@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useState, PropsWithChildren, ReactNode } from "react";
 import Dropdown from "@/app/components/Dropdown";
-import NavLink from "@/app/components/NavLink";
-import ApplicationLogo from "@/app/components/ApplicationLogo";
-import ResponsiveNavLink from "@/app/components/ResponsiveNavLink";
+import NavLink from "@/app/components/nav-link";
+import ApplicationLogo from "@/app/components/logo";
+import ResponsiveNavLink from "@/app/components/responsive-nav-link";
 import { userProfile as user } from "@/app/_mock/user";
 
 export default function Authenticated({

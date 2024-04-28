@@ -1,4 +1,4 @@
-import SectionTitle from "@/app/components/SectionTitle";
+import SectionTitle from "@/app/components/section-title";
 
 interface ReviewCardPropsType {
   id: string;
