@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import SectionTitle from "@/app/components/section-title";
+import SectionTitle from "@/app/old-components/section-title";
 import { ourWorkPart } from "@/app/constants/ourWorkPart";
 
 interface ReviewCardPropsType {

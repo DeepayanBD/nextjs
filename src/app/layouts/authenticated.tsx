@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useState, PropsWithChildren, ReactNode } from "react";
-import Dropdown from "@/app/components/Dropdown";
-import NavLink from "@/app/components/nav-link";
-import ApplicationLogo from "@/app/components/logo";
-import ResponsiveNavLink from "@/app/components/responsive-nav-link";
+import Dropdown from "@/app/old-components/Dropdown";
+import NavLink from "@/app/old-components/nav-link";
+import ApplicationLogo from "@/app/old-components/logo";
+import ResponsiveNavLink from "@/app/old-components/responsive-nav-link";
 import { userProfile as user } from "@/app/_mock/user";
 
 export default function Authenticated({

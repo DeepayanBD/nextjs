@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Iconify from "@/app/components/Iconify";
+import Iconify from "@/app/old-components/Iconify";
 import contactImage from "@/app/assets/images/contact.svg";
 import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
 
