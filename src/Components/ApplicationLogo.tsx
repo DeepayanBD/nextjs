@@ -1,7 +1,8 @@
-import { ImgHTMLAttributes } from "react";
+import Image from "next/image";
+import logo from "@/assets/logo/logo.svg";
 
-export default function ApplicationLogo(
-    props: ImgHTMLAttributes<HTMLImageElement>
-) {
-    return <img src="/logo.svg" {...props} />;
+export default function ApplicationLogo({ className }: { className?: string }) {
+  return (
+    <Image height={18} width={90} alt="logo" src={logo} className={className} />
+  );
 }

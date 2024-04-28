@@ -1,15 +1,15 @@
 export const mainNavConfig = [
     {
         label: "Home",
-        link: "root.home",
+        link: "/",
     },
     {
         label: "Who We Are",
-        link: "root.whoWeAre",
+        link: "/who-we-are",
     },
     {
         label: "What We Do",
-        link: "root.whatWeDo",
+        link: "/what-we-do",
     },
     {
         label: "Projects",
@@ -17,39 +17,39 @@ export const mainNavConfig = [
         children: [
             {
                 label: "Self Employment",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Food Distribution",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Deepayan Arragya",
-                link: "root.project.arraggya",
+                link: "/project/arraggya",
             },
             {
                 label: "Deepayan Arayanna",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Deepayan Asram",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Deepayan Bondhu",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Education For A Better Tomorrow",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Clean Water And Sanitation",
-                link: "root.project.maintenance",
+                link: "/project/maintenance",
             },
             {
                 label: "Kurbani",
-                link: "root.project.kurbani",
+                link: "/project/kurbani",
             },
         ],
     },
@@ -59,20 +59,20 @@ export const mainNavConfig = [
         children: [
             {
                 label: "Pre-Marriage",
-                link: "root.course.preMarriage",
+                link: "/course/pre-marriage",
             },
             {
                 label: "Smart Parenting",
-                link: "root.course.smartParenting",
+                link: "/course/smart-parenting",
             },
             {
                 label: "Internship",
-                link: "root.course.internship",
+                link: "/course/internship",
             },
         ],
     },
     {
         label: "Contact Us",
-        link: "root.contact",
+        link: "/contact",
     },
 ];

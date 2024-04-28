@@ -13,7 +13,7 @@ export const footerLinks = [
     },
     {
         label: "Contact Us",
-        link: "/contact-us",
+        link: "/contact",
     },
     {
         label: "News",
