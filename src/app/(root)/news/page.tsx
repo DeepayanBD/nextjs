@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import NewsList from "@/Sections/pages/news/NewsList";
+import { HomeListView } from "@/app/sections/news/view";
 
 export const metadata: Metadata = {
   title: "News",
 };
 
 export default function Page() {
-  return <NewsList />;
+  return <HomeListView />;
 }

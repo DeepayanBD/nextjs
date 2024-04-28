@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import Contact from "@/Sections/pages/Contact";
+import { ContactView } from "@/app/sections/root/view";
 
 export const metadata: Metadata = {
   title: "Contact",
 };
 
 export default function Page() {
-  return <Contact />;
+  return <ContactView />;
 }

@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import WhoWeAre from "@/Sections/pages/WhoWeAre";
+import { WhoWeAreView } from "@/app/sections/root/view";
 
 export const metadata: Metadata = {
   title: "Who We Are",
 };
 
 export default function Page() {
-  return <WhoWeAre />;
+  return <WhoWeAreView />;
 }

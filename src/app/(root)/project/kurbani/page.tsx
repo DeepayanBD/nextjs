@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import ProjectKurbani from "@/Sections/pages/project/Kurbani";
+import { KurbaniView } from "@/app/sections/root/project/view";
 
 export const metadata: Metadata = {
   title: "Kurbani",
 };
 
 export default function Page() {
-  return <ProjectKurbani />;
+  return <KurbaniView />;
 }

@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import Donate from "@/Sections/pages/Donate";
+import { DonateView } from "@/app/sections/root/view";
 
 export const metadata: Metadata = {
   title: "Donate",
 };
 
 export default function Page() {
-  return <Donate />;
+  return <DonateView />;
 }
