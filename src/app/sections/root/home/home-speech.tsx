@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionTitle from "@/app/old-components/section-title";
+import SectionTitle from "@/app/components/section-title";
 
 import bgImage from "@/app/assets/uploads/home-banner-04.jpg";
 

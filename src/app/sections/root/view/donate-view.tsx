@@ -1,5 +1,5 @@
-import DonateButton from "@/app/old-components/donate-button";
-import Iconify from "@/app/old-components/Iconify";
+import DonateButton from "@/app/components/donate-button";
+import Iconify from "@/app/components/Iconify";
 
 export default function DonateView() {
   return (

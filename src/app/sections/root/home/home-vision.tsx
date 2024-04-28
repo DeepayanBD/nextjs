@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionTitle from "@/app/old-components/section-title";
+import SectionTitle from "@/app/components/section-title";
 
 import banner from "@/app/assets/uploads/banner-02.jpg";
 import sideImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-11.19.24-AM-1024x768.jpeg";

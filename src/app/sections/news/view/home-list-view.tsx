@@ -1,4 +1,4 @@
-import Container from "@/app/old-components/container";
+import Container from "@/app/components/container";
 import NewsItem from "@/app/sections/news/news-item";
 import { newsItems } from "@/app/constants/newsItems";
 

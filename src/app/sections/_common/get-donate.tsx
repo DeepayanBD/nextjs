@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SectionTitle from "@/app/old-components/section-title";
+import SectionTitle from "@/app/components/section-title";
 import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-10.26.32-AM.webp";
 
 export default function GetDonate() {
