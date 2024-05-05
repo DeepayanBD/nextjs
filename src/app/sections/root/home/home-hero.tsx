@@ -30,10 +30,10 @@ export default function HomeHero() {
 
             <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
               <Link
-                href="/news"
+                href="/what-we-do"
                 className="inline-block rounded-full bg-blue-600 hover:bg-blue-700 border-blue-600 hover:border-blue-700 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-blue-300 transition duration-100  focus-visible:ring active:bg-blue-700 md:text-base"
               >
-                Read News
+                What We Do
               </Link>
 
               <Link
