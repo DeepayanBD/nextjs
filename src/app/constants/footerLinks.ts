@@ -15,8 +15,9 @@ export const footerLinks = [
         label: "Contact Us",
         link: "/contact",
     },
-    {
-        label: "News",
-        link: "/news",
-    },
+    // Uncomment if news enabeled 
+    // {
+    //     label: "News",
+    //     link: "/news",
+    // },
 ];

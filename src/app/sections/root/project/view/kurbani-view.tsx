@@ -11,7 +11,7 @@ import sideImage from "@/app/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
 export default function KurbaniView() {
   return (
     <>
-      <section className="bg-gray-50 dark:bg-gray-900 min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 mt-12 md:py-10 xl:py-24">
+      <section className="font-bangla bg-gray-50 dark:bg-gray-900 min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 mt-12 md:py-10 xl:py-24">
         <>
           <div className="flex flex-col relative">
             <SectionTitle title="প্রজেক্ট কুরবানি" />

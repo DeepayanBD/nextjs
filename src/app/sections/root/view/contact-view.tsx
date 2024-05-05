@@ -1,30 +1,29 @@
 import Image from "next/image";
 import Iconify from "@/app/components/Iconify";
-import contactImage from "@/app/assets/images/contact.svg";
+import contactImage from "@/app/assets/images/message.png";
 import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
 
 const contacts = [
   {
     icon: "uil:phone",
     title: "Phone",
-    details: `The phrasal sequence of the is now so that
-    many campaign and benefit`,
-    link: "tel:+152534-468-854",
-    content: "+152 534-468-854",
+    details: `If you have an inquiry please call us in necessary.`,
+    link: "tel:+8801799015558",
+    content: "+880 17990-15558",
   },
   {
     icon: "uil:envelope",
     title: "Email",
-    details: `The phrasal sequence of the is now so that
-    many campaign and benefit`,
-    link: "mailto:contact@example.com",
-    content: "contact@example.com",
+    details: `You can contact throught e-mail for help and support.`,
+    link: "mailto:saifullah71tv@gmail.com",
+    content: "saifullah71tv@gmail.com",
   },
   {
     icon: "uil:map-marker",
     title: "Location",
-    details: "C/54 Northwest Freeway, Suite 558, Houston, USA 485",
-    link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin",
+    details:
+      "8/7A Borobag (Azmat Garments Opposite Road), Mirpur - 2, Dhaka - 1216, Bangladesh",
+    link: "https://maps.app.goo.gl/PTpdsMZ8dKH4inxh8",
     content: "View on Google map",
   },
 ];
@@ -32,7 +31,7 @@ const contacts = [
 export default function ContactView() {
   return (
     <>
-      <section className="min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden  bg-gray-100  py-16 md:py-20 xl:py-48">
+      <section className="font-bangla min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden  bg-gray-100  py-16 md:py-20 xl:py-48">
         <Image
           src={bgImage}
           priority
@@ -40,13 +39,13 @@ export default function ContactView() {
           className="absolute inset-0 h-full w-full object-cover object-center opacity-65"
         />
 
-        <div className="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 mix-blend-multiply opacity-95"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 mix-blend-multiply opacity-95"></div>
 
         <div className="relative flex flex-col text-start p-4 mx-14">
           <p className="mb-4  sm:text-3xl text-white text-base ">
             একটি মানবিক পৃথিবীর জন্য
           </p>
-          <hr className="my-2 w-2/6 md:mb-8 h-2 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-blue-900 to-transparent opacity-75 dark:via-amber-400" />
+          <hr className="my-2 w-2/6 md:mb-8 h-2 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-blue-600 dark:via-red-600 to-transparent" />
 
           <h1 className="mb-8  sm:text-4xl font-bold text-white text-base md:mb-12 md:text-4xl">
             দুঃখে যাদের জীবন কাটে কষ্টে যাদের রাত, তাদের জন্য বাড়িয়ে দেই
@@ -60,7 +59,7 @@ export default function ContactView() {
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
             {contacts.map(({ content, details, icon, link, title }, index) => (
               <div key={index} className="text-center px-6 mt-6">
-                <div className="size-20 bg-indigo-600/10 text-indigo-600 rounded-xl text-4xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                <div className="size-20 bg-blue-600/10 text-blue-600 rounded-xl text-4xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
                   <Iconify icon={icon} />
                 </div>
 
@@ -73,7 +72,7 @@ export default function ContactView() {
                   <div className="mt-5">
                     <a
                       href={link}
-                      className="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-400 hover:text-indigo-500 after:bg-indigo-500 duration-500 ease-in-out"
+                      className="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-blue-600 hover:text-blue-700 dark:hover:text-white after:bg-blue-500 duration-500 ease-in-out"
                     >
                       {content}
                     </a>
@@ -87,12 +86,12 @@ export default function ContactView() {
         <div className="container relative md:mt-24 mt-16">
           <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
             <div className="lg:col-span-7 md:col-span-6">
-              <Image src={contactImage} alt="" width={700} />
+              <Image src={contactImage} alt="" width={600} />
             </div>
 
             <div className="lg:col-span-5 md:col-span-6">
               <div className="lg:ms-5">
-                <div className="bg-indigo-600/10 rounded-md shadow dark:shadow-gray-800 p-6">
+                <div className="bg-blue-600/10 rounded-md shadow dark:shadow-gray-800 p-6">
                   <h3 className="mb-6 text-2xl leading-normal font-medium">
                     Get in touch !
                   </h3>
@@ -127,7 +126,7 @@ export default function ContactView() {
                       type="submit"
                       id="submit"
                       name="send"
-                      className="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full justify-center flex items-center"
+                      className="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-blue-600 hover:bg-blue-700 border-blue-600 hover:border-blue-700 text-white rounded-full justify-center flex items-center"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +157,7 @@ export default function ContactView() {
         <div className="grid grid-cols-1">
           <div className="w-full leading-[0] border-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d456.3194012156227!2d90.36215529172549!3d23.798848253602436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1714939046029!5m2!1sen!2sbd"
               style={{ border: 0 }}
               className="w-full h-[500px]"
               allowFullScreen

@@ -8,7 +8,7 @@ const config: Config = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
 
-  darkMode: "class",
+  darkMode: "selector",
 
   theme: {
     extend: {
@@ -16,6 +16,11 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        sans: ['var(--font-open-sans)'],
+        mono: ['var(--font-roboto-mono)'],
+        bangla: ['var(--font-hind-siliguri)']
       },
     },
   },

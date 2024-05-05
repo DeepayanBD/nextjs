@@ -3,7 +3,7 @@ import { homeSlider } from "@/app/constants/homeSlider";
 
 export default function HomeSlider() {
   return (
-    <section className="py-16 px-8 mx-auto bg-gradient-to-tr from-pink-500/40 via-purple-500/40 to-indigo-500/40 mix-blend-normal ">
+    <section className="py-16 px-8 mx-auto bg-gradient-to-tr from-pink-500/40 via-purple-500/40 to-blue-500/40 mix-blend-normal ">
       <div className="mx-auto container ">
         <div className="slider">
           <div className="slide-track">

@@ -6,7 +6,7 @@ import bgImage from "@/app/assets/uploads/banner-02.jpg";
 
 export default function OurGoal() {
   return (
-    <section className="bg-white dark:bg-gray-900 min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 shadow-lg md:py-10 xl:py-24">
+    <section className="font-bangla bg-white dark:bg-gray-900 min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 shadow-lg md:py-10 xl:py-24">
       <Image
         src={bgImage}
         loading="lazy"
@@ -16,7 +16,7 @@ export default function OurGoal() {
         className="absolute inset-0 h-full w-full object-cover object-center opacity-50 blur-sm"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-500  via-purple-500  to-pink-500  mix-blend-normal opacity-70"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-500  via-purple-500  to-pink-500  mix-blend-normal opacity-70"></div>
 
       <div className="absolute inset-0 bg-black dark:opacity-35 opacity-40"></div>
       <>
@@ -52,7 +52,7 @@ export default function OurGoal() {
 
               <DonateButton />
             </div>
-            <div className="lg:ml-2.5 lg:mt-0 rounded-xl lg:col-span-6 lg:flex">
+            <div className="lg:ml-2.5 lg:mt-0 lg:col-span-6 lg:flex">
               <Image
                 className="rounded-xl"
                 // height={600}

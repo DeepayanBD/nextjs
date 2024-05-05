@@ -33,9 +33,12 @@ export function CardReview({ heading, image, details }: ReviewCardPropsType) {
 
 export default function OurWorkPart() {
   return (
-    <section className="py-20 px-8 bg-gradient-to-tr from-indigo-500/50 dark:from-indigo-500/65 via-purple-500/50 dark:via-purple-500/65 to-pink-500/50 dark:to-pink-500/65 bg-blend-overlay">
+    <section className="py-20 px-8 bg-gradient-to-tr from-blue-500/50 dark:from-blue-500/65 via-purple-500/50 dark:via-purple-500/65 to-pink-500/50 dark:to-pink-500/65 bg-blend-overlay">
       <div className="mx-auto container">
-        <SectionTitle title="আমাদের কার্যক্রমের একাংশ" />
+        <SectionTitle
+          className="font-bangla"
+          title="আমাদের কার্যক্রমের একাংশ"
+        />
         <div className="container mx-auto mt-10 grid grid-cols-1 gap-10 lg:grid-cols-4">
           {ourWorkPart.map(({ heading, image, details }, index) => (
             <CardReview

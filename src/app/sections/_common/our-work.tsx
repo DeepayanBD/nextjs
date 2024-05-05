@@ -61,7 +61,7 @@ const CONTENTS = [
 
 export default function OurWork() {
   return (
-    <section className="py-20 px-8 bg-white dark:bg-slate-950">
+    <section className="font-bangla py-20 px-8 bg-white dark:bg-slate-950">
       <div className="mx-auto container">
         <SectionTitle title="আমাদের কার্যক্রম" />
         <div className=" grid lg:grid-cols-3 grid-cols-1 gap-y-6">

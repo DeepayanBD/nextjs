@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-import MainNavbar from "./navbar";
+import { DesktopNavbar, MobileNavbar } from "./navbar";
 
 import DonateButton from "@/app/components/donate-button";
 import DarkModeToggle from "@/app/components/dark-mode-toggle";
@@ -11,30 +11,6 @@ import ApplicationLogo from "@/app/components/logo";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import { mainNavConfig } from "@/app/constants/mainNavConfig";
-
-interface NavItemPropsType {
-  label: string;
-  link: string;
-}
-
-function NavItem({ label, link }: NavItemPropsType) {
-  return (
-    <Link href={link}>
-      <li className="p-1 font-medium">{label}</li>
-    </Link>
-  );
-}
-
-function NavList() {
-  return (
-    <ul className="mb-4 mt-2 flex flex-col gap-3 text-black dark:text-white lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8">
-      <NavItem label="Home" link="/" />
-      <NavItem label="Who We Are" link="/who-we-are" />
-      <NavItem label="What We Do" link="/what-we-do" />
-      <NavItem label="Contact Us" link="/contact" />
-    </ul>
-  );
-}
 
 export default function MainHeader() {
   const [open, setOpen] = React.useState(false);
@@ -57,15 +33,16 @@ export default function MainHeader() {
                 <ApplicationLogo className="block h-9 w-auto" />
               </Link>
             </div>
-            <div className="flex gap-5">
+            <div className="flex gap-2">
               <div className="hidden lg:block content-center">
-                <MainNavbar menuItems={mainNavConfig} />
+                <DesktopNavbar menuItems={mainNavConfig} />
               </div>
               <DarkModeToggle />
               <DonateButton className="hidden lg:block" />
               <button
                 onClick={handleOpen}
-                className="ml-auto inline-block text-blue-gray-900 lg:hidden"
+                aria-label="Mobile Menu"
+                className="ml-auto inline-block text-black dark:text-gray-200 hover:bg-slate-100/70 dark:hover:bg-slate-700/30 px-1 rounded lg:hidden"
               >
                 {open ? (
                   <XMarkIcon className="h-6 w-6" strokeWidth={2} />
@@ -77,14 +54,7 @@ export default function MainHeader() {
           </div>
         </div>
       </nav>
-      {open && (
-        <div className="rounded-xl bg-white text-black dark:bg-slate-600 py-2 px-4 bg-opacity-90 fixed z-10 w-full mt-14">
-          <NavList />
-          <div className="pb-4">
-            <DonateButton />
-          </div>
-        </div>
-      )}
+      {open && <MobileNavbar />}
     </>
   );
 }

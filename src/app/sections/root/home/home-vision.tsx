@@ -16,13 +16,13 @@ export default function HomeVision() {
         className="absolute inset-0 h-full w-full object-cover object-center opacity-50 blur-sm"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mix-blend-normal opacity-55 dark:opacity-65"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mix-blend-normal opacity-55 dark:opacity-65"></div>
 
       <>
         <div className="flex flex-col relative">
-          <SectionTitle title="আমাদের লক্ষ্য" />
+          <SectionTitle className="font-bangla" title="আমাদের লক্ষ্য" />
           <div className="flex flex-col md:flex-row relative max-w-screen-xl px-4 py-8 gap-6  lg:grid-cols-12">
-            <div className="mr-auto place-self-center lg:col-span-6">
+            <div className="mr-auto place-self-center font-bangla lg:col-span-6">
               <p className="max-w-2xl mb-6  text-black dark:text-white lg:mb-8">
                 <strong className="font-bold">
                   “ক্ষুধার রাজ্যে পৃথিবী গদ্যময়,পূর্ণিমা চাঁদ যেন ঝলসানো রুটি”

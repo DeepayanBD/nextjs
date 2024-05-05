@@ -5,10 +5,10 @@ import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-10.26.32-
 export default function GetDonate() {
   return (
     <section
-      className="min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 bg-cover md:py-10 xl:py-24 bg-fixed"
+      className="font-bangla min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 bg-cover md:py-10 xl:py-24 bg-fixed"
       style={{ backgroundImage: `url(${bgImage.src})` }}
     >
-      <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mix-blend-normal opacity-85"></div>
+      <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mix-blend-normal opacity-85"></div>
 
       <>
         <div className="flex flex-col relative">
@@ -28,7 +28,7 @@ export default function GetDonate() {
               <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
                 <Link
                   href="/donate"
-                  className="inline-block rounded-full bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-black outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 hover:shadow-md hover:shadow-blue-500/35 focus-visible:ring active:text-gray-700 md:text-base"
+                  className="inline-block rounded-full bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-black outline-none ring-blue-300 transition duration-100 hover:bg-gray-300 hover:shadow-md hover:shadow-blue-500/35 focus-visible:ring active:text-gray-700 md:text-base"
                 >
                   Donate
                 </Link>

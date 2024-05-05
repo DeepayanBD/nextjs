@@ -34,11 +34,9 @@ export default function NewsItem({ post }: { post: INewsItem }) {
         <div className="">
           <div>
             <div className="flex gap-3 mt-4">
-              <Link href={`/category/`}>
-                <span className="inline-block text-xs font-medium tracking-wider uppercase text-blue-700">
-                  {"Technology"}
-                </span>
-              </Link>
+              <span className="inline-block text-xs font-medium tracking-wider uppercase text-blue-700">
+                {"Technology"}
+              </span>
             </div>
             <h2 className="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white">
               <Link href={`/post/`}>
@@ -49,23 +47,21 @@ export default function NewsItem({ post }: { post: INewsItem }) {
             </h2>
 
             <div className="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
-              <Link href={`/author/${post?.author?.name}`}>
-                <div className="flex items-center gap-3">
-                  <div className="relative h-5 w-5 flex-shrink-0">
-                    {post?.author?.image && (
-                      <Image
-                        src={post?.author?.image}
-                        alt={post?.author?.name}
-                        height={20}
-                        width={20}
-                        className="rounded-full object-cover aspect-square"
-                        sizes="20px"
-                      />
-                    )}
-                  </div>
-                  <span className="truncate text-sm">{post?.author?.name}</span>
+              <div className="flex items-center gap-3">
+                <div className="relative h-5 w-5 flex-shrink-0">
+                  {post?.author?.image && (
+                    <Image
+                      src={post?.author?.image}
+                      alt={post?.author?.name}
+                      height={20}
+                      width={20}
+                      className="rounded-full object-cover aspect-square"
+                      sizes="20px"
+                    />
+                  )}
                 </div>
-              </Link>
+                <span className="truncate text-sm">{post?.author?.name}</span>
+              </div>
               <span className="text-xs text-gray-300 dark:text-gray-600">
                 &bull;
               </span>

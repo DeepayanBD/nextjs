@@ -5,7 +5,7 @@ import bgImage from "@/app/assets/uploads/home-banner-04.jpg";
 
 export default function HomeSpeech() {
   return (
-    <section className="bg-white dark:bg-gray-900 min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 shadow-lg md:py-10 xl:py-24">
+    <section className="font-bangla bg-white dark:bg-gray-900 min-h-full relative flex flex-1 shrink-0 items-center justify-center overflow-hidden py-8 shadow-lg md:py-10 xl:py-24">
       <Image
         src={bgImage}
         loading="lazy"
@@ -15,7 +15,7 @@ export default function HomeSpeech() {
         className="absolute inset-0 h-full w-full object-cover object-center blur-sm"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mix-blend-normal opacity-55 dark:opacity-75"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-500 from-10% via-purple-500 via-30% to-pink-500 to-90% mix-blend-normal opacity-55 dark:opacity-75"></div>
 
       <div className="absolute inset-0 dark:bg-black/70 bg-black/20 opacity-75"></div>
       <>

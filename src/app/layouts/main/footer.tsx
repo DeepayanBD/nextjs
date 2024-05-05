@@ -23,7 +23,7 @@ export default function MainFooter() {
 
         <div className=" sm:flex sm:items-center sm:justify-between pt-6  w-full antialiased">
           <p className="mb-4 text-base text-center  sm:mb-0">
-            Copyright &copy; 2019-{currentYear}{" "}
+            Copyright &copy; 2015–{currentYear}{" "}
             <Link
               href="/"
               className="hover:text-blue-500 dark:hover:text-blue-400"
@@ -31,13 +31,13 @@ export default function MainFooter() {
             >
               Deepayan Foundation
             </Link>
-            . All rights reserved.
           </p>
           <div className="flex justify-center items-center space-x-1">
-            <a
-              href="#"
+            <Link
+              href="https://facebook.com/deepayan.bd"
+              target="_blank"
               data-tooltip-target="tooltip-facebook"
-              className="inline-flex justify-center p-2 text-gray-500 rounded-full cursor-pointer dark:text-gray-100 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-slate-700/30"
+              className="inline-flex justify-center p-2 text-gray-500 rounded-full cursor-pointer dark:text-gray-100 dark:hover:text-blue-400 hover:text-blue-600 hover:bg-gray-100 dark:hover:bg-blue-500/10"
             >
               <svg
                 className="w-4 h-4"
@@ -49,9 +49,10 @@ export default function MainFooter() {
                 <path d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" />
               </svg>
               <span className="sr-only">Facebook</span>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="https://x.com/deepayan.bd"
+              target="_blank"
               data-tooltip-target="tooltip-twitter"
               className="inline-flex justify-center p-2 text-gray-500 rounded-full cursor-pointer dark:text-gray-100 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-slate-700/30"
             >
@@ -68,7 +69,7 @@ export default function MainFooter() {
                 />
               </svg>
               <span className="sr-only">Twitter</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

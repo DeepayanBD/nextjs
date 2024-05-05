@@ -1,6 +1,6 @@
 import { INewsAuthor, INewsItem } from "@/app/types/news";
 
-import imageAuthorOne from '@/app/assets/uploads/author/4e20f048a69ac41ab7a6b5f1687f0547379b7469-3648x5472.avif'
+import imageAuthorOne from '@/app/assets/logo/maskable-icon.png'
 
 import imageNewsOne from '@/app/assets/uploads/news/05951a0ec1a6ffc54f615ab160649e92fea982d0-800x764.avif'
 import imageNewsTwo from '@/app/assets/uploads/news/2fda477a7e32f813abb9a8ef425939e6a91c7973-987x1481.avif'
@@ -9,24 +9,15 @@ import imageNewsFour from '@/app/assets/uploads/news/2786bf808843b56a0e0feda1c17
 import imageNewsFive from '@/app/assets/uploads/news/b7d2fa6d0b250bd1e0c601645319db4cde42a01e-3958x5937.avif'
 import imageNewsSix from '@/app/assets/uploads/news/a5bd8977e7fd82666c00a45948583b1f9912d392-3847x5583.avif'
 
-const newsAuthors: INewsAuthor[] = [
-    {
-        name: "John Doe",
-        image: imageAuthorOne,
-        role: "Editor",
-        quotes: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        created_at: new Date("2022-01-01"),
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        name: "Jane Smith",
-        image: imageAuthorOne,
-        role: "Reporter",
-        quotes: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        created_at: new Date("2022-02-01"),
-        bio: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
-];
+const newsAuthor: INewsAuthor =
+{
+    name: "Deepayan",
+    image: imageAuthorOne,
+    role: "Reporter",
+    quotes: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    created_at: new Date("2022-02-01"),
+    bio: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+};
 
 const newsItems: INewsItem[] = [
     {
@@ -38,7 +29,7 @@ const newsItems: INewsItem[] = [
         cover: imageNewsOne,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         created_at: "2024-04-27",
-        author: newsAuthors[0] // Assuming the first author is the author of this news item
+        author: newsAuthor
     },
     {
         id: "2",
@@ -49,7 +40,7 @@ const newsItems: INewsItem[] = [
         cover: imageNewsTwo,
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         created_at: "2024-04-26",
-        author: newsAuthors[1] // Assuming the second author is the author of this news item
+        author: newsAuthor
     },
     {
         id: "3",
@@ -60,7 +51,7 @@ const newsItems: INewsItem[] = [
         cover: imageNewsThree,
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         created_at: "2024-04-26",
-        author: newsAuthors[1] // Assuming the second author is the author of this news item
+        author: newsAuthor
     },
     {
         id: "4",
@@ -71,7 +62,7 @@ const newsItems: INewsItem[] = [
         cover: imageNewsFour,
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         created_at: "2024-04-26",
-        author: newsAuthors[1] // Assuming the second author is the author of this news item
+        author: newsAuthor
     },
     {
         id: "5",
@@ -82,7 +73,7 @@ const newsItems: INewsItem[] = [
         cover: imageNewsFive,
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         created_at: "2024-04-26",
-        author: newsAuthors[1] // Assuming the second author is the author of this news item
+        author: newsAuthor
     },
     {
         id: "6",
@@ -93,8 +84,8 @@ const newsItems: INewsItem[] = [
         cover: imageNewsSix,
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         created_at: "2024-04-26",
-        author: newsAuthors[1] // Assuming the second author is the author of this news item
+        author: newsAuthor
     },
 ];
 
-export { newsItems, newsAuthors }
+export { newsItems, newsAuthor }

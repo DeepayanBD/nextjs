@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 export const metadata: Metadata = {
   title: {
     template: "%s – Course – Deepayan",
-    default: "Project – Deepayan",
+    default: "Course – Deepayan",
   },
 };
 
