@@ -1,6 +1,8 @@
+import "./globals.css";
+
 import type { Metadata, Viewport } from "next";
 import { Public_Sans, Hind_Siliguri } from "next/font/google";
-import "./globals.css";
+import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 const open_sans = Public_Sans({
   subsets: ["latin"],
@@ -34,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Deepayan Foundation",
     images: [
       {
-        url: "https://www.deepayan.org/assets/deepayan-logo.png", // Must be an absolute URL
+        url: deepRec.src, // Must be an absolute URL
         width: 602,
         height: 301,
         alt: "Deepayan Foundation Logo",
@@ -50,7 +52,7 @@ export const metadata: Metadata = {
     siteId: "1467726470533754880",
     creator: "@nextjs",
     creatorId: "1467726470533754880",
-    images: ["https://www.deepayan.org/assets/deepayan-logo.png"],
+    images: [deepRec.src],
   },
   robots: {
     index: true,

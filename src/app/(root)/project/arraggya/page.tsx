@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { ArraggyaView } from "@/app/sections/root/project/view";
+import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {
   title: "Arraggya",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
     url: "https://www.deepayan.org/project/arraggya",
     images: [
       {
-        url: "https://www.deepayan.org/assets/deepayan-logo.png",
+        url: deepRec.src,
         height: 301,
         alt: "Deepayan Foundation Logo",
       },
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Arraggya – Project – Deepayan",
     card: "summary_large_image",
-    images: ["https://www.deepayan.org/assets/deepayan-logo.png"],
+    images: [deepRec.src],
   },
 };
 
