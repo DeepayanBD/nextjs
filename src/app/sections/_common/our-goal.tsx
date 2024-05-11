@@ -29,7 +29,7 @@ export default function OurGoal() {
                 রাস্তায় ঘুমাবে না
               </h3>
 
-              <p className="max-w-2xl mb-6 font-light text-black dark:text-white lg:mb-8  ">
+              <p className="max-w-2xl mb-6 font-light text-white lg:mb-8  ">
                 <strong className="font-bold">
                   “ক্ষুধার রাজ্যে পৃথিবী গদ্যময়,পূর্ণিমা চাঁদ যেন ঝলসানো রুটি”
                 </strong>
@@ -40,7 +40,7 @@ export default function OurGoal() {
                 বিকল্প নেই।
               </p>
 
-              <p className="max-w-2xl mb-6 font-light text-black dark:text-white lg:mb-8 ">
+              <p className="max-w-2xl mb-6 font-light text-white lg:mb-8 ">
                 আমরা বিশ্বাস করি প্রতিটা মানুষ তাদের মৌলিক অধিকার নিয়ে বাঁচার
                 অধিকার রাখে, বাংলাদেশ এর ২০.৫ শতাংশ মানুষ যারা দারিদ্রসীমার নিচে
                 বসবাস করেন তাদের জীবনযাত্রার মান উন্নয়ন ও জাতির জনক বঙ্গবন্ধু
@@ -55,8 +55,6 @@ export default function OurGoal() {
             <div className="lg:ml-2.5 lg:mt-0 lg:col-span-6 lg:flex">
               <Image
                 className="rounded-xl"
-                // height={600}
-                // width={600}
                 quality={100}
                 src={sideLogo}
                 alt="Deepayan Logo"

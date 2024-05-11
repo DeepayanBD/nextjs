@@ -26,7 +26,7 @@ export default function WhoWeAreView() {
           <hr className="my-2 w-2/6 md:mb-8 h-2 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-blue-600 dark:via-red-600 to-transparent" />
 
           <h1 className="mb-8  sm:text-4xl font-bold text-white text-base md:mb-12 md:text-4xl">
-            সোনার মানুষ গড়তে চাই, সোনার বাংলা গড়বো তাই
+            সোনার বাংলা পেতে চাই, সোনার মানুষ গড়বো তাই
           </h1>
         </div>
       </section>
