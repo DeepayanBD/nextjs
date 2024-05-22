@@ -2,6 +2,8 @@ import "./globals.css";
 
 import type { Metadata, Viewport } from "next";
 import { Public_Sans, Hind_Siliguri } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
 
 const open_sans = Public_Sans({
@@ -84,6 +86,7 @@ export default function RootLayout({
         className={`${open_sans.variable} ${hind_siliguri.variable} font-sans selection:bg-blue-50 selection:text-blue-500`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
