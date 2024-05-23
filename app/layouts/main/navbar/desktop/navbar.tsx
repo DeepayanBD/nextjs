@@ -28,9 +28,9 @@ export default function DesktopNavbar({ menuItems }: Props) {
             handleOpen={() => handleDropdownToggle(index)}
             open={openDropdown === index}
             label={item.label}
-            // eslint-disable-next-line react/no-children-prop
-            children={item.children}
-          />
+          >
+            {item.children}
+          </NavDropdown>
         ) : (
           <NavItem key={index} label={item.label} link={item.link} />
         )
