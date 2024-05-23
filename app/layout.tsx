@@ -25,15 +25,17 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s – Deepayan",
+    template: "%s – Deepayan Foundation",
     default: "Deepayan Foundation",
   },
-  description: "Deepayan Foundation is a Nonprofit NGO",
+  description:
+    "The Deepayan Foundation is a non-political non-profit organization that empowers underprivileged people of the society in Bangladesh through various social welfare initiatives. We have various projects. Our work improves lives in areas like healthcare, education, and poverty reduction. You can help the underprivileged people of the society to move forward.",
   keywords: ["Deepayan", "Foundation", "Bangladesh", "NGO"],
   metadataBase: new URL("https://www.deepayan.org"),
   openGraph: {
     title: "Deepayan Foundation",
-    description: "Deepayan Foundation is a Nonprofit NGO",
+    description:
+      "The Deepayan Foundation is a non-political non-profit organization that empowers underprivileged people of the society in Bangladesh through various social welfare initiatives. We have various projects. Our work improves lives in areas like healthcare, education, and poverty reduction. You can help the underprivileged people of the society to move forward.",
     url: "https://www.deepayan.org",
     siteName: "Deepayan Foundation",
     images: [

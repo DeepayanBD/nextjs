@@ -5,7 +5,7 @@ import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
 export const metadata: Metadata = {
   title: "Smart Parenting",
   openGraph: {
-    title: "Smart Parenting – Course – Deepayan",
+    title: "Smart Parenting – Course – Deepayan Foundation",
     url: "https://www.deepayan.org/course/smart-parnting",
     images: [
       {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Smart Parenting – Course – Deepayan",
+    title: "Smart Parenting – Course – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

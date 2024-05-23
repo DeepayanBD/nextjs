@@ -5,7 +5,7 @@ import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
 export const metadata: Metadata = {
   title: "Internship",
   openGraph: {
-    title: "Internship – Course – Deepayan",
+    title: "Internship – Course – Deepayan Foundation",
     url: "https://www.deepayan.org/course/internship",
     images: [
       {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Internship – Course – Deepayan",
+    title: "Internship – Course – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

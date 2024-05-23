@@ -5,7 +5,7 @@ import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
 export const metadata: Metadata = {
   title: "Pre Marraige",
   openGraph: {
-    title: "Pre Marraige – Course – Deepayan",
+    title: "Pre Marraige – Course – Deepayan Foundation",
     url: "https://www.deepayan.org/course/pre-marriage",
     images: [
       {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Pre Marraige – Course – Deepayan",
+    title: "Pre Marraige – Course – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

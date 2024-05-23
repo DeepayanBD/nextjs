@@ -5,7 +5,7 @@ import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
 export const metadata: Metadata = {
   title: "What We Do",
   openGraph: {
-    title: "What We Do – Deepayan",
+    title: "What We Do – Deepayan Foundation",
     url: "https://www.deepayan.org/what-we-do",
     images: [
       {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "What We Do – Deepayan",
+    title: "What We Do – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },
