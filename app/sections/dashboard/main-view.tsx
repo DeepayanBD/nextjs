@@ -1,4 +1,4 @@
-import AuthenticatedLayout from "@/layouts/authenticated";
+import AuthenticatedLayout from "@/app/layouts/authenticated";
 
 export default function Dashboard() {
   return (

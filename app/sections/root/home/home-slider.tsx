@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { homeSlider } from "@/constants/homeSlider";
+import { homeSlider } from "@/app/constants/homeSlider";
 
 export default function HomeSlider() {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import SectionTitle from "@/components/section-title";
+import SectionTitle from "@/app/components/section-title";
 
-import bgImage from "@/assets/uploads/home-banner-04.jpg";
+import bgImage from "@/app/assets/uploads/home-banner-04.jpg";
 
 export default function HomeSpeech() {
   return (

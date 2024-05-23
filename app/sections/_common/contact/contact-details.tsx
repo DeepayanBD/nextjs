@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Iconify from "@/components/Iconify";
-import contactImage from "@/assets/images/message.png";
+import Iconify from "@/app/components/Iconify";
+import contactImage from "@/app/assets/images/message.png";
 
 const contacts = [
   {

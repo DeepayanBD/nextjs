@@ -5,12 +5,12 @@ import Link from "next/link";
 
 import { DesktopNavbar, MobileNavbar } from "./navbar";
 
-import DonateButton from "@/components/donate-button";
-import DarkModeToggle from "@/components/dark-mode-toggle";
-import ApplicationLogo from "@/components/logo";
+import DonateButton from "@/app/components/donate-button";
+import DarkModeToggle from "@/app/components/dark-mode-toggle";
+import ApplicationLogo from "@/app/components/logo";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-import { mainNavConfig } from "@/constants/mainNavConfig";
+import { mainNavConfig } from "@/app/constants/mainNavConfig";
 
 export default function MainHeader() {
   const [open, setOpen] = React.useState(false);

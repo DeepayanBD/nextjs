@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { WhatWeDoView } from "@/sections/root/view";
-import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
+import { WhatWeDoView } from "@/app/sections/root/view";
+import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {
   title: "What We Do",

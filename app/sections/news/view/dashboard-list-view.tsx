@@ -1,4 +1,4 @@
-import Authenticated from "@/layouts/authenticated";
+import Authenticated from "@/app/layouts/authenticated";
 
 export default function DashboardListView() {
   return (

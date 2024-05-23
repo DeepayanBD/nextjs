@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { DonateView } from "@/sections/root/view";
-import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
+import { DonateView } from "@/app/sections/root/view";
+import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {
   title: "Donate",

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import DonateButton from "@/components/donate-button";
-import SectionTitle from "@/components/section-title";
-import sideLogo from "@/assets/logo/deepayan-logo.png";
-import bgImage from "@/assets/uploads/banner-02.jpg";
+import DonateButton from "@/app/components/donate-button";
+import SectionTitle from "@/app/components/section-title";
+import sideLogo from "@/app/assets/logo/deepayan-logo.png";
+import bgImage from "@/app/assets/uploads/banner-02.jpg";
 
 export default function OurGoal() {
   return (

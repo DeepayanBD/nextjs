@@ -1,9 +1,9 @@
-import bgImage from "@/assets/uploads/home-banner-04.jpg";
-import bKashLogo from "@/assets/logos/donate/bkash.svg";
-import nagadLogo from "@/assets/logos/donate/nagad.svg";
-import sonaliBankLogo from "@/assets/logos/donate/sonali-bank.svg";
+import bgImage from "@/app/assets/uploads/home-banner-04.jpg";
+import bKashLogo from "@/app/assets/logos/donate/bkash.svg";
+import nagadLogo from "@/app/assets/logos/donate/nagad.svg";
+import sonaliBankLogo from "@/app/assets/logos/donate/sonali-bank.svg";
 import Image from "next/image";
-import sideLogo from "@/assets/logo/deepayan-logo.png";
+import sideLogo from "@/app/assets/logo/deepayan-logo.png";
 
 const mathods = [
   {

@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
-import SectionTitle from "@/components/section-title";
-import { ourWorkPart } from "@/constants/ourWorkPart";
+import SectionTitle from "@/app/components/section-title";
+import { ourWorkPart } from "@/app/constants/ourWorkPart";
 
 interface ReviewCardPropsType {
   heading: string;

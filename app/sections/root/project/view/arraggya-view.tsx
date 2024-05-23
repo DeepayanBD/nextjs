@@ -1,12 +1,12 @@
 import Image from "next/image";
-import GetDonate from "@/sections/_common/get-donate";
-import ImageGrid from "@/sections/_common/image-grid";
-import SectionTitle from "@/components/section-title";
-import DonateButton from "@/components/donate-button";
-import OurSupporters from "@/sections/_common/our-supporters";
+import GetDonate from "@/app/sections/_common/get-donate";
+import ImageGrid from "@/app/sections/_common/image-grid";
+import SectionTitle from "@/app/components/section-title";
+import DonateButton from "@/app/components/donate-button";
+import OurSupporters from "@/app/sections/_common/our-supporters";
 
-import sideImage from "@/assets/uploads/arraggya/side-image.jpeg";
-import { arraggyaImages } from "@/constants/arraggya";
+import sideImage from "@/app/assets/uploads/arraggya/side-image.jpeg";
+import { arraggyaImages } from "@/app/constants/arraggya";
 
 export default function ArraggyaView() {
   return (

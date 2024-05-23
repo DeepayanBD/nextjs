@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
-import DonateButton from "@/components/donate-button";
-import SectionTitle from "@/components/section-title";
-import GetDonate from "@/sections/_common/get-donate";
+import DonateButton from "@/app/components/donate-button";
+import SectionTitle from "@/app/components/section-title";
+import GetDonate from "@/app/sections/_common/get-donate";
 
-import sideImage from "@/assets/svg/undraw_co-working_re_w93t.svg";
+import sideImage from "@/app/assets/svg/undraw_co-working_re_w93t.svg";
 
 export default function UnderMaintenanceView() {
   return (

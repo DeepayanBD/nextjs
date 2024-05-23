@@ -1,9 +1,9 @@
-import imageWorkOne from '@/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.31.06-AM.jpeg'
-import imageWorkTwo from '@/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.26.32-AM.jpeg'
-import imageWorkThree from '@/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.55.05-AM.jpeg'
-import imageWorkFour from '@/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.19.24-AM.jpeg'
-import imageWorkFive from '@/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.46.37-AM.jpeg'
-import imageWorkSix from '@/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.47.09-AM.jpeg'
+import imageWorkOne from '@/app/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.31.06-AM.jpeg'
+import imageWorkTwo from '@/app/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.26.32-AM.jpeg'
+import imageWorkThree from '@/app/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.55.05-AM.jpeg'
+import imageWorkFour from '@/app/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.19.24-AM.jpeg'
+import imageWorkFive from '@/app/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.46.37-AM.jpeg'
+import imageWorkSix from '@/app/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.47.09-AM.jpeg'
 
 export const ourWorkPart = [
     {

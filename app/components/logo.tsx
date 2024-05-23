@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/assets/logo/logo.svg";
+import logo from "@/app/assets/logo/logo.svg";
 
 export default function Logo({ className }: { className?: string }) {
   return (

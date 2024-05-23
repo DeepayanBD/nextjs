@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import DonateButton from "@/components/donate-button";
-import SectionTitle from "@/components/section-title";
-import GetDonate from "@/sections/_common/get-donate";
-import ImageGrid from "@/sections/_common/image-grid";
+import DonateButton from "@/app/components/donate-button";
+import SectionTitle from "@/app/components/section-title";
+import GetDonate from "@/app/sections/_common/get-donate";
+import ImageGrid from "@/app/sections/_common/image-grid";
 
-import { kurbaniImages } from "@/constants/kurbani";
-import sideImage from "@/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
+import { kurbaniImages } from "@/app/constants/kurbani";
+import sideImage from "@/app/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
 
 export default function KurbaniView() {
   return (

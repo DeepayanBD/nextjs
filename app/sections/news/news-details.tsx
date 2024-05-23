@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { INewsItem } from "../../types/news";
 import { parseISO, format } from "date-fns";
-import Container from "@/components/container";
+import Container from "@/app/components/container";
 
 export default function PostDetails({ post }: { post: INewsItem }) {
   return (

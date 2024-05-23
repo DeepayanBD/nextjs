@@ -2,11 +2,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logoIqra from "@/assets/logos/supporters/logo-iqra.svg";
-import logoWoderBD from "@/assets/logos/supporters/logo-wooder-bd.svg";
-import logoDurrbar from "@/assets/logos/supporters/logo-durrbar.svg";
-import logoSpotify from "@/assets/logos/supporters/logo-spotify.svg";
-import logoSustainableDevelopmentGoals from "@/assets/logos/supporters/240px-SustainableDevelopmentGoalsLogo.svg.png";
+import logoIqra from "@/app/assets/logos/supporters/logo-iqra.svg";
+import logoWoderBD from "@/app/assets/logos/supporters/logo-wooder-bd.svg";
+import logoDurrbar from "@/app/assets/logos/supporters/logo-durrbar.svg";
+import logoSpotify from "@/app/assets/logos/supporters/logo-spotify.svg";
+import logoSustainableDevelopmentGoals from "@/app/assets/logos/supporters/240px-SustainableDevelopmentGoalsLogo.svg.png";
 
 export default function OurSupporters() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bgImage from "@/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
+import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
 
 export default function HeroTwo() {
   return (

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footerLinks } from "@/constants/footerLinks";
+import { footerLinks } from "@/app/constants/footerLinks";
 const currentYear = new Date().getFullYear();
 
 export default function MainFooter() {

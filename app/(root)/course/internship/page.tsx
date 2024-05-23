@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import UnderMaintenanceView from "@/sections/_common/under-maintenance-view";
-import deepRec from "@/assets/logo/deepayan-logo-rectangular.png";
+import UnderMaintenanceView from "@/app/sections/_common/under-maintenance-view";
+import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {
   title: "Internship",

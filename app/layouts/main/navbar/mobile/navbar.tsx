@@ -1,4 +1,4 @@
-import DonateButton from "@/components/donate-button";
+import DonateButton from "@/app/components/donate-button";
 import NavList from "./nav-list";
 
 export default function MobileNavbar() {
