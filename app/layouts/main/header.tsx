@@ -10,7 +10,7 @@ import DarkModeToggle from "@/app/components/dark-mode-toggle";
 import ApplicationLogo from "@/app/components/logo";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-import { mainNavConfig } from "@/app/constants/mainNavConfig";
+import { mainNavConfig } from "./navbar/mainNavConfig";
 
 export default function MainHeader() {
   const [open, setOpen] = React.useState(false);

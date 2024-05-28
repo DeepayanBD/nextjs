@@ -1,5 +1,13 @@
 import { Metadata } from "next";
-import { HomeView } from "@/app/sections/root/view";
+
+import HomeHero from "./home-hero";
+import HomeVision from "./home-vision";
+import HomeSlider from "./home-slider";
+import HomeSpeech from "./home-speech";
+
+import OurWork from "@/app/_common/our-work";
+import GetDonate from "@/app/_common/get-donate";
+import OurSupporters from "@/app/_common/our-supporters";
 
 export const metadata: Metadata = {
   title: "Deepayan Foundation",
@@ -8,5 +16,21 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <HomeView />;
+  return (
+    <>
+      <HomeHero />
+
+      <HomeVision />
+
+      <HomeSlider />
+
+      <OurWork />
+
+      <HomeSpeech />
+
+      <OurSupporters />
+
+      <GetDonate />
+    </>
+  );
 }

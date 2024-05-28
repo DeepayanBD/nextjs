@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import SectionTitle from "@/app/components/section-title";
-import { ourWorkPart } from "@/app/constants/ourWorkPart";
+import { ourWorkPart } from "./ourWorkPart";
 
 interface ReviewCardPropsType {
   heading: string;
@@ -10,7 +10,7 @@ interface ReviewCardPropsType {
 
 export function CardReview({ heading, image, details }: ReviewCardPropsType) {
   return (
-    <div className="group flex-col grid bg-clip-border  bg-transparent text-gray-700 shadow-md shadow-blue-500/80 dark:shadow-blue-900/80 relative min-h-[30rem] items-end overflow-hidden rounded-xl">
+    <div className="relative group flex-col grid bg-clip-border bg-transparent aspect-[9/16] text-gray-700 shadow-blue-500/80 dark:shadow-blue-900/80 items-end overflow-hidden shadow-md rounded-xl">
       <Image
         src={image}
         alt={heading}
@@ -39,7 +39,7 @@ export default function OurWorkPart() {
           className="font-bangla"
           title="আমাদের কার্যক্রমের একাংশ"
         />
-        <div className="container mx-auto mt-10 grid grid-cols-1 gap-10 lg:grid-cols-4">
+        <div className="container mx-auto mt-10 grid grid-cols-1 md:grid-cols-4 gap-10">
           {ourWorkPart.map(({ heading, image, details }, index) => (
             <CardReview
               key={index}

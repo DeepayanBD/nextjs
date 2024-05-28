@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { ArraggyaView } from "@/app/sections/root/project/view";
+import ArraggyaView from "./arraggya-view";
 import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {

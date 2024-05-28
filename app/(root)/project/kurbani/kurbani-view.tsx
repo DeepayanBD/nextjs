@@ -2,10 +2,10 @@ import Image from "next/image";
 
 import DonateButton from "@/app/components/donate-button";
 import SectionTitle from "@/app/components/section-title";
-import GetDonate from "@/app/sections/_common/get-donate";
-import ImageGrid from "@/app/sections/_common/image-grid";
+import GetDonate from "@/app/_common/get-donate";
+import ImageGrid from "@/app/_common/image-grid";
 
-import { kurbaniImages } from "@/app/constants/kurbani";
+import { kurbaniImages } from "./kurbani";
 import sideImage from "@/app/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
 
 export default function KurbaniView() {
@@ -15,7 +15,7 @@ export default function KurbaniView() {
         <>
           <div className="flex flex-col relative">
             <SectionTitle title="প্রজেক্ট কুরবানি" />
-            <div className="flex flex-col  md:flex-row relative max-w-screen-xl px-4 py-8 gap-10  lg:grid-cols-12">
+            <div className="flex flex-col  md:flex-row relative max-w-screen-xl px-4 py-8 gap-10">
               <div className="lg:ml-2.5 lg:mt-0 lg:col-span-6 lg:flex">
                 <Image
                   className="rounded-lg"

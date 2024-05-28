@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { KurbaniView } from "@/app/sections/root/project/view";
+import KurbaniView from "./kurbani-view";
 import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {
