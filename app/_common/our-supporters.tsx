@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import logoIqra from "@/app/assets/logos/supporters/logo-iqra.svg";
-import logoWoderBD from "@/app/assets/logos/supporters/logo-wooder-bd.svg";
-import logoDurrbar from "@/app/assets/logos/supporters/logo-durrbar.svg";
-import logoSpotify from "@/app/assets/logos/supporters/logo-spotify.svg";
-import logoSustainableDevelopmentGoals from "@/app/assets/logos/supporters/240px-SustainableDevelopmentGoalsLogo.svg.png";
+import logoIqra from "@/public/assets/logo/supporters/logo-iqra.svg";
+import logoWoderBD from "@/public/assets/logo/supporters/logo-wooder-bd.svg";
+import logoDurrbar from "@/public/assets/logo/supporters/logo-durrbar.svg";
+import logoSpotify from "@/public/assets/logo/supporters/logo-spotify.svg";
+import logoSustainableDevelopmentGoals from "@/public/assets/logo/supporters/240px-SustainableDevelopmentGoalsLogo.svg.png";
 
 export default function OurSupporters() {
   return (
@@ -18,9 +18,9 @@ export default function OurSupporters() {
           যাদের সহযোগিতায় আজকের দীপায়ন
         </h1>
         <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mx-auto max-w-5xl !text-gray-700 dark:!text-gray-300 lg:px-8 mb-10">
-          From innovative startups to Fortune 500 foundations, our client list
+          {`From innovative startups to Fortune 500 foundations, our client list
           spans a spectrum of sectors, each with unique challenges that we've
-          successfully navigated.
+          successfully navigated.`}
         </p>
         <div className="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto">
           <div className="flex flex-col items-center justify-center gap-6">
@@ -60,11 +60,11 @@ export default function OurSupporters() {
                 sdgs.un.org
               </Link>
               <p className="block antialiased font-sans text-sm leading-normal text-blue-gray-900 font-normal lg:max-w-[16rem]">
-                “Every year, the UN Secretary General presents an annual SDG
+                {`“Every year, the UN Secretary General presents an annual SDG
                 Progress report, which is developed in cooperation with the UN
                 System, and based on the global indicator framework and data
                 produced by national statistical systems and information
-                collected at the regional level."
+                collected at the regional level."`}
               </p>
             </div>
           </div>

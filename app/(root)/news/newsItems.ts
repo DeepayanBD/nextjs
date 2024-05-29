@@ -1,13 +1,13 @@
 import { INewsAuthor, INewsItem } from "@/app/types/news";
 
-import imageAuthorOne from '@/app/assets/logo/maskable-icon.png'
+import imageAuthorOne from '@/public/assets/logo/maskable-icon.png'
 
-import imageNewsOne from '@/app/assets/uploads/news/05951a0ec1a6ffc54f615ab160649e92fea982d0-800x764.avif'
-import imageNewsTwo from '@/app/assets/uploads/news/2fda477a7e32f813abb9a8ef425939e6a91c7973-987x1481.avif'
-import imageNewsThree from '@/app/assets/uploads/news/12301f301772ed723724302aef7c70c5c1c0151f-4500x8000.avif'
-import imageNewsFour from '@/app/assets/uploads/news/2786bf808843b56a0e0feda1c1747cf73673d989-3648x5472.avif'
-import imageNewsFive from '@/app/assets/uploads/news/b7d2fa6d0b250bd1e0c601645319db4cde42a01e-3958x5937.avif'
-import imageNewsSix from '@/app/assets/uploads/news/a5bd8977e7fd82666c00a45948583b1f9912d392-3847x5583.avif'
+import imageNewsOne from '@/public/assets/uploads/news/05951a0ec1a6ffc54f615ab160649e92fea982d0-800x764.avif'
+import imageNewsTwo from '@/public/assets/uploads/news/2fda477a7e32f813abb9a8ef425939e6a91c7973-987x1481.avif'
+import imageNewsThree from '@/public/assets/uploads/news/12301f301772ed723724302aef7c70c5c1c0151f-4500x8000.avif'
+import imageNewsFour from '@/public/assets/uploads/news/2786bf808843b56a0e0feda1c1747cf73673d989-3648x5472.avif'
+import imageNewsFive from '@/public/assets/uploads/news/b7d2fa6d0b250bd1e0c601645319db4cde42a01e-3958x5937.avif'
+import imageNewsSix from '@/public/assets/uploads/news/a5bd8977e7fd82666c00a45948583b1f9912d392-3847x5583.avif'
 
 const newsAuthor: INewsAuthor =
 {

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import { HomeListView } from "@/app/sections/news/view";
-import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
+import HomeListView from "./home-list-view";
+import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
 export const metadata: Metadata = {
   title: "News",

@@ -16,6 +16,7 @@ export function CardReview({ heading, image, details }: ReviewCardPropsType) {
         alt={heading}
         height={900}
         width={400}
+        placeholder="blur"
         className="absolute inset-0 h-full w-full object-cover object-center transition duration-500 group-hover:scale-110"
       />
       <div className="absolute inset-0 bg-black/40"></div>

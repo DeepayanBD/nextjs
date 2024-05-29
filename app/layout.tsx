@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from "next";
 import { Public_Sans, Hind_Siliguri } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-import deepRec from "@/app/assets/logo/deepayan-logo-rectangular.png";
+import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
 const open_sans = Public_Sans({
   subsets: ["latin"],

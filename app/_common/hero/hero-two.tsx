@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
+import bgImage from "@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
 
 export default function HeroTwo() {
   return (
@@ -7,6 +7,7 @@ export default function HeroTwo() {
       <Image
         src={bgImage}
         priority
+        placeholder="blur"
         alt="Photo by Fakurian Design"
         className="absolute inset-0 h-full w-full object-cover object-center opacity-65"
       />

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import bgImage from "@/app/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
-import bgLogo from "@/app/assets/logo/deepayan-logo.png";
+import bgImage from "@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
+import bgLogo from "@/public/assets/logo/deepayan-logo.png";
 
 export default function HomeHero() {
   return (

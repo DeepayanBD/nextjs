@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import sideLogo from "@/app/assets/logo/deepayan-logo.png";
-import bgImage from "@/app/assets/uploads/home-banner-04.jpg";
-import bKashLogo from "@/app/assets/logos/donate/bkash.svg";
-import nagadLogo from "@/app/assets/logos/donate/nagad.svg";
-import sonaliBankLogo from "@/app/assets/logos/donate/sonali-bank.svg";
+import sideLogo from "@/public/assets/logo/deepayan-logo.png";
+import bgImage from "@/public/assets/uploads/home-banner-04.jpg";
+import bKashLogo from "@/public/assets/logo/donate/bkash.svg";
+import nagadLogo from "@/public/assets/logo/donate/nagad.svg";
+import sonaliBankLogo from "@/public/assets/logo/donate/sonali-bank.svg";
 
 const mathods = [
   {
@@ -34,6 +34,7 @@ export default function DonateView() {
           priority
           height={1000}
           width={500}
+          placeholder="blur"
           alt="Photo by Fakurian Design"
           className="absolute inset-0 h-full w-full object-cover object-center "
         />

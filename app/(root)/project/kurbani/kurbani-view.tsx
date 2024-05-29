@@ -6,7 +6,7 @@ import GetDonate from "@/app/_common/get-donate";
 import ImageGrid from "@/app/_common/image-grid";
 
 import { kurbaniImages } from "./kurbani";
-import sideImage from "@/app/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
+import sideImage from "@/public/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
 
 export default function KurbaniView() {
   return (
@@ -22,6 +22,7 @@ export default function KurbaniView() {
                   src={sideImage}
                   alt="Project Kurbani"
                   priority
+                  placeholder="blur"
                 />
               </div>
               <div className="mr-auto max-w-lg place-self-center lg:col-span-6 flex flex-col justify-between gap-2">

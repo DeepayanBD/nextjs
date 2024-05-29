@@ -1,11 +1,12 @@
 import Image from "next/image";
+
 import GetDonate from "@/app/_common/get-donate";
 import ImageGrid from "@/app/_common/image-grid";
 import SectionTitle from "@/app/components/section-title";
 import DonateButton from "@/app/components/donate-button";
 import OurSupporters from "@/app/_common/our-supporters";
 
-import sideImage from "@/app/assets/uploads/arraggya/side-image.jpeg";
+import sideImage from "@/public/assets/uploads/arraggya/side-image.jpeg";
 import { arraggyaImages } from "./arraggya";
 
 export default function ArraggyaView() {
@@ -47,6 +48,7 @@ export default function ArraggyaView() {
                   className="rounded-lg w-96 max-sm:w-full h-auto"
                   src={sideImage}
                   priority
+                  placeholder="blur"
                   alt="Project Arraggya"
                 />
               </div>

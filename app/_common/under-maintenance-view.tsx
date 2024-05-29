@@ -1,11 +1,10 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 import DonateButton from "@/app/components/donate-button";
 import SectionTitle from "@/app/components/section-title";
-import GetDonate from "@/app/sections/_common/get-donate";
+import GetDonate from "@/app/_common/get-donate";
 
-import sideImage from "@/app/assets/svg/undraw_co-working_re_w93t.svg";
+import sideImage from "@/public/assets/svg/undraw_co-working_re_w93t.svg";
 
 export default function UnderMaintenanceView() {
   return (
@@ -25,7 +24,7 @@ export default function UnderMaintenanceView() {
               </div>
               <div className="mr-auto max-w-lg place-self-center lg:col-span-6 flex flex-col justify-between gap-2  max-sm:px-5">
                 <span className="max-w-2xl mb-6 font-medium dark:text-white text-black lg:mb-8">
-                  As a vital arm of our nonprofit NGO, the ongoing maintenance
+                  {`As a vital arm of our nonprofit NGO, the ongoing maintenance
                   of our projects stands as a testament to our commitment to
                   sustainable impact. With a dedicated team of volunteers and
                   professionals, we ensure that every aspect of our initiatives
@@ -38,7 +37,7 @@ export default function UnderMaintenanceView() {
                   serve with excellence and integrity. Through this ongoing
                   maintenance, we uphold the trust and support of our
                   stakeholders, fostering a legacy of positive change that
-                  endures for generations to come.
+                  endures for generations to come.`}
                 </span>
 
                 <DonateButton className="w-28 max-sm:w-full" />

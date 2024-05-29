@@ -17,6 +17,7 @@ export default function ImageGrid({
                   width={400}
                   height={300}
                   src={image}
+                  placeholder="blur"
                   alt={typeof image === "string" ? image : image.src || ""}
                 />
               </div>

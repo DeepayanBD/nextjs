@@ -1,8 +1,9 @@
 import Image from "next/image";
 import DonateButton from "@/app/components/donate-button";
 import SectionTitle from "@/app/components/section-title";
-import sideLogo from "@/app/assets/logo/deepayan-logo.png";
-import bgImage from "@/app/assets/uploads/banner-02.jpg";
+
+import sideLogo from "@/public/assets/logo/deepayan-logo.png";
+import bgImage from "@/public/assets/uploads/banner-02.jpg";
 
 export default function OurGoal() {
   return (
@@ -12,6 +13,7 @@ export default function OurGoal() {
         loading="lazy"
         height={1000}
         width={1000}
+        placeholder="blur"
         alt="Photo by Fakurian Design"
         className="absolute inset-0 h-full w-full object-cover object-center opacity-50 blur-sm"
       />

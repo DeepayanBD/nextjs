@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Iconify from "@/app/components/Iconify";
-import contactImage from "@/app/assets/images/message.png";
+import contactImage from "@/public/assets/images/message.png";
 
 const contacts = [
   {
@@ -61,7 +61,7 @@ export default function ContactsDetails() {
       <div className="container relative md:mt-24 mt-16">
         <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
           <div className="lg:col-span-7 md:col-span-6">
-            <Image src={contactImage} alt="" width={600} />
+            <Image src={contactImage} alt="" width={600} placeholder="blur" />
           </div>
 
           <div className="lg:col-span-5 md:col-span-6">

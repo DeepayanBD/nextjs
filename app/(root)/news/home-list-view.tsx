@@ -1,5 +1,5 @@
 import Container from "@/app/components/container";
-import NewsItem from "@/app/sections/news/news-item";
+import NewsItem from "./news-item";
 import { newsItems } from "./newsItems";
 
 export default function HomeListView() {
