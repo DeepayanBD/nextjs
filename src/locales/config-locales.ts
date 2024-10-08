@@ -1,0 +1,45 @@
+// ----------------------------------------------------------------------
+
+export type LanguageValue = 'bn' | 'en' | 'ar';
+
+export const fallbackLng = 'en';
+export const languages = ['bn', 'en', 'ar'];
+export const defaultNS = 'common';
+export const cookieName = 'i18next';
+
+// ----------------------------------------------------------------------
+
+export function i18nOptions(lng = fallbackLng, ns = defaultNS) {
+  return {
+    // debug: true,
+    lng,
+    fallbackLng,
+    ns,
+    defaultNS,
+    fallbackNS: defaultNS,
+    supportedLngs: languages,
+  };
+}
+
+// ----------------------------------------------------------------------
+
+export const changeLangMessages: Record<
+  LanguageValue,
+  { success: string; error: string; loading: string }
+> = {
+  bn: {
+    success: 'ভাষা পরিবর্তন হয়েছে!',
+    error: 'ভাষা পরিবর্তনে সমস্যা!',
+    loading: 'লোড হচ্ছে...',
+  },
+  en: {
+    success: 'Language has been changed!',
+    error: 'Error changing language!',
+    loading: 'Loading...',
+  },
+  ar: {
+    success: 'تم تغيير اللغة!',
+    error: 'خطأ في تغيير اللغة!',
+    loading: 'جارٍ التحميل...',
+  },
+};

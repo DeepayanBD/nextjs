@@ -1,0 +1,146 @@
+/** **************************************
+* Fonts: app
+*************************************** */
+@import '@fontsource/hind-siliguri/300.css';
+@import '@fontsource/hind-siliguri/400.css';
+@import '@fontsource/hind-siliguri/500.css';
+@import '@fontsource/hind-siliguri/700.css';
+
+@import '@fontsource/public-sans/400.css';
+@import '@fontsource/public-sans/500.css';
+@import '@fontsource/public-sans/600.css';
+@import '@fontsource/public-sans/700.css';
+@import '@fontsource/public-sans/800.css';
+
+.slider {
+  height: 24rem; /* 96 * 0.25rem = 24rem */
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/** **************************************
+* Plugins
+*************************************** */
+/* scrollbar */
+@import './components/scrollbar/styles.css';
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-18rem * 5));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-18rem * 5));
+  }
+}
+
+.slider::before,
+.slider::after {
+  content: '';
+  height: 24rem;
+  position: absolute;
+  width: 18rem;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  gap: 2rem;
+  width: calc(20rem * 10);
+}
+.slider .slide {
+  height: 24rem;
+  width: 19rem;
+}
+
+/** **************************************
+* Baseline
+*************************************** */
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+body,
+#root,
+#root__layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 100%;
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+input[type='number']::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+input[type='number']::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+}
+
+[data-mui-color-scheme='light'] {
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0c68e9;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #063ba7;
+  }
+}
+
+[data-mui-color-scheme='dark'] {
+  ::-webkit-scrollbar-track {
+    background: #1c252e;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #063ba7;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0c68e9;
+  }
+}
