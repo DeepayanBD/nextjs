@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
+import { CONFIG } from "src/config-global";
+
 export const metadata: Metadata = {
   title: {
-    template: "%s – Course – Deepayan Foundation",
-    default: "Course – Deepayan Foundation",
+    template: `%s – Course – ${CONFIG.site.name}`,
+    default: `Course – ${CONFIG.site.name}`,
   },
 };
 

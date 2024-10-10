@@ -29,7 +29,7 @@ export type ConfigValue = {
 
 export const CONFIG: ConfigValue = {
     site: {
-        name: 'Durrbar',
+        name: 'Deepayan Foundation',
         serverUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? '',
         assetURL: process.env.NEXT_PUBLIC_ASSET_URL ?? '',
         basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? '',

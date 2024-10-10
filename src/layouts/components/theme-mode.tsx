@@ -34,6 +34,7 @@ export function ThemeMode() {
           <Fab
             key={colorScheme.option}
             color="inherit"
+            aria-label={`Theme ${colorScheme.option}`}
             component={m.button}
             whileTap="tap"
             whileHover="hover"

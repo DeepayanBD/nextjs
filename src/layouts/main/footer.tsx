@@ -226,6 +226,7 @@ export function Footer({ layoutQuery, sx, ...other }: FooterProps) {
             <Stack direction="row" spacing={1} justifyContent="center">
               {_socials.map((social) => (
                 <IconButton
+                  aria-label={`Follow on ${social.name}`}
                   key={social.name}
                   sx={{
                     bgcolor: alpha(social.color, 0.05),

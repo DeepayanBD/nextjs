@@ -2,12 +2,14 @@
 
 import { Box, Stack, Container, Typography } from '@mui/material';
 
+import { useTranslate } from 'src/locales';
 import { banglaFont } from 'src/theme/core';
 import { bgGradient } from 'src/theme/styles';
 
 import { SectionTitle } from 'src/sections/components/section-title';
 
 export function HomeSpeech() {
+  const { t } = useTranslate('home/speech');
   return (
     <Box
       sx={{
@@ -34,7 +36,7 @@ export function HomeSpeech() {
       />
 
       <Container sx={{ position: 'relative', zIndex: 2, maxWidth: 'lg', px: { xs: 2, md: 4 } }}>
-        <SectionTitle title="কিছু কথা" />
+        <SectionTitle title={t('aFewWords')} />
 
         <Stack
           spacing={14}
@@ -62,8 +64,7 @@ export function HomeSpeech() {
               variant="h6"
               sx={{ fontWeight: 'bold', color: 'text.primary', fontFamily: banglaFont, my: 2 }}
             >
-              আপনার একটু সাহায্য হাসি ফুটাতে পারে হাজারো অসহায় শিশুদের মুখে। আপনাদের সাহায্য ও
-              সহযোগিতায় আমরা এতদূর আসতে পেরেছি, আরো অনেক দূর এগিয়ে যেতে চাই।
+              {t('fewWordsText')}
             </Typography>
 
             {/* Bottom-right Quote Icon */}
@@ -105,8 +106,7 @@ export function HomeSpeech() {
               variant="h6"
               sx={{ fontWeight: 'bold', color: 'text.primary', fontFamily: banglaFont, my: 2 }}
             >
-              একটি ক্ষুধামুক্ত বাংলাদেশ গড়ার আমাদের এই স্বপ্ন বাস্তবায়নে আপনাদের সহযোগিতা ও সমর্থন
-              আমাদের একান্ত কাম্য।
+              {t('hungerFreeDream')}
             </Typography>
 
             {/* Bottom-right Quote Icon */}

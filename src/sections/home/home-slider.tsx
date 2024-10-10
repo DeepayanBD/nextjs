@@ -9,7 +9,7 @@ export function HomeSlider() {
     <Box
       sx={{
         py: 8,
-        background: 'linear-gradient(to top right, rgba(239, 129, 173, 0.4), rgba(176, 126, 237, 0.4), rgba(116, 200, 246, 0.4))',
+        background: 'linear-gradient(to top right, rgba(239, 129, 173, 0.7), rgba(176, 126, 237, 0.7), rgba(116, 200, 246, 0.7))',
       }}
     >
       <Container maxWidth="lg">

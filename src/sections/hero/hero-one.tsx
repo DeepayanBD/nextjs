@@ -1,7 +1,5 @@
 'use client'
 
-import Image from "next/image";
-import bgImage from "@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg";
 
 import { Box, Divider, Typography } from "@mui/material";
 
@@ -22,11 +20,25 @@ export function HeroOne() {
         overflow: 'hidden',
       }}
     >
-      <Image
+      <Box
+        sx={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          height: '100%',
+          width: '100%',
+          ...bgGradient({
+            color: `to right, rgba(236, 72, 153, 0.8), rgba(126, 34, 206, 0.8), rgba(59, 130, 246, 0.8)`,
+            imgUrl: `/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg`,
+          }),
+        }}
+      />
+
+      {/* <Image
         src={bgImage}
         alt="Photo by Fakurian Design"
         layout="fill" // Fill the Box
-        objectFit="cover" // Cover the entire area
+        objectFit="cover" // Cover the entire area 
         objectPosition="center" // Center the image
         placeholder="blur" // Use blur placeholder if needed
         priority // Load this image with priority
@@ -43,7 +55,7 @@ export function HeroOne() {
           mixBlendMode: 'multiply', // Blend mode
           opacity: 0.95,
         }}
-      />
+      /> */}
 
       <Box sx={{ position: 'relative', textAlign: 'start', p: 4, mx: { xs: 4, md: 14 } }}>
         <Typography

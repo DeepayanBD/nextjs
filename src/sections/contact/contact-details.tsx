@@ -81,7 +81,7 @@ export default function ContactsDetails() {
 
       <Grid container spacing={4} sx={{ my: { md: 10, xs: 4 } }}>
         <Grid item xs={12} md={6} lg={7}>
-          <Image src={contactImage} alt="Contact Image" width={600} height={500} placeholder="blur" />
+          <Image src={contactImage} alt="Contact Image" width={500} height={500} placeholder="blur" />
         </Grid>
 
         <Grid item xs={12} md={5}>

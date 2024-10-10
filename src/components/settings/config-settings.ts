@@ -1,3 +1,5 @@
+import { defaultFont } from 'src/theme/core/typography';
+
 import type { SettingsState } from './types';
 
 // ----------------------------------------------------------------------
@@ -11,4 +13,5 @@ export const defaultSettings: SettingsState = {
   navLayout: 'vertical',
   navColor: 'integrate',
   compactLayout: true,
+  fontFamily: defaultFont,
 } as const;

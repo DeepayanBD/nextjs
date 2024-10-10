@@ -6,6 +6,7 @@ import { Box, Button, styled, Typography } from '@mui/material';
 
 import { RouterLink } from 'src/routes/components';
 
+import { useTranslate } from 'src/locales';
 import { banglaFont } from 'src/theme/core';
 
 import { SectionTitle } from 'src/sections/components/section-title';
@@ -22,6 +23,7 @@ const GradientOverlay = styled(Box)({
 });
 
 export function GetDonate() {
+  const { t } = useTranslate('donation');
   return (
     <Box
       component="section"
@@ -44,7 +46,7 @@ export function GetDonate() {
 
       {/* Content */}
       <Box sx={{ position: 'relative', zIndex: 1 }}>
-        <SectionTitle title="অনুদান গ্রহণ" />
+        <SectionTitle title={t('donation')} />
 
         <Box
           sx={{
@@ -67,7 +69,7 @@ export function GetDonate() {
               color: 'text.primary',
             }}
           >
-            একটি সুবিধাবঞ্চিত শিশুর জীবনের মোড় ঘুরিয়ে দিতে আমাদের সহায়তা করুন
+            {t('donationMessage')}
           </Typography>
 
           <Typography
@@ -79,8 +81,7 @@ export function GetDonate() {
               fontWeight: 'medium',
             }}
           >
-            আপনার অনুদান পৌঁছে যাবে সুবিধাবঞ্চিত শিশু ও মানুষদের সাহায্যে। দারিদ্র ও ক্ষুধামুক্ত
-            একটি বাংলাদেশ গড়ার এই লক্ষযাত্রায় আপনাকে স্বাগতম।
+            {t('donationDetails')}
           </Typography>
           <Button
             component={RouterLink}
@@ -90,10 +91,10 @@ export function GetDonate() {
             sx={{
               px: 8,
               py: 2,
-              width: { xs: '100%', md: 'auto' },
+              width: { xs: '100%', md: 'auto', fontFamily: banglaFont },
             }}
           >
-            Donate
+            {t('donate')}
           </Button>
         </Box>
       </Box>

@@ -353,6 +353,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/lateef@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/lateef@npm:5.1.0"
+  checksum: 10c0/cb8db2fafd93efec1784b99c15bf067d8a00b23399af44b17de1a6b5f8b64aa3da46ddc8290323894c93087ee95446ca89d263010a3dce854213d5c25cf82ec4
+  languageName: node
+  linkType: hard
+
 "@fontsource/public-sans@npm:^5.0.18":
   version: 5.1.1
   resolution: "@fontsource/public-sans@npm:5.1.1"
@@ -1675,6 +1682,7 @@ __metadata:
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
     "@fontsource/hind-siliguri": "npm:^5.1.0"
+    "@fontsource/lateef": "npm:^5.1.0"
     "@fontsource/public-sans": "npm:^5.0.18"
     "@iconify/react": "npm:^4.1.1"
     "@mui/lab": "npm:^5.0.0-alpha.170"

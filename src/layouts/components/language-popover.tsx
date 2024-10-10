@@ -14,6 +14,7 @@ import { useTranslate } from 'src/locales';
 
 import { varHover } from 'src/components/animate';
 import { FlagIcon } from 'src/components/iconify';
+import { useSettingsContext } from 'src/components/settings';
 import { usePopover, CustomPopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
@@ -31,12 +32,19 @@ export function LanguagePopover({ data = [], sx, ...other }: LanguagePopoverProp
 
   const { onChangeLang, currentLang } = useTranslate();
 
+  const settings = useSettingsContext();
+
   const handleChangeLang = useCallback(
     (newLang: LanguageValue) => {
       onChangeLang(newLang);
+
+      const newValue = newLang === 'bn' ? 'Hind Siliguri' : newLang === 'ar' ? 'Lateef' : 'Public Sans';
+
+      settings.onUpdateField('fontFamily', newValue)
+
       popover.onClose();
     },
-    [onChangeLang, popover]
+    [onChangeLang, popover, settings]
   );
 
   return (
