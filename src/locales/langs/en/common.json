@@ -1,6 +1,23 @@
 {
-  "demo": {
-    "lang": "English",
-    "description": "The starting point for your next project is based on MUI. Easy customization helps you build apps faster and better."
-  }
+  "donate": "Donate",
+  "donation": "Donation",
+  "whatWeDo": "What We Do",
+  "forHumaneWorld": "For a Humane World",
+  "becauseTogether": "Because Only Together We Can",
+  "povertyFreeNation": "To build a poverty-free nation",
+  "donationMessage": "Help us change the life of an underprivileged child",
+  "goldenBengal": "We want to achieve a Golden Bengal, and for that, we will build golden-hearted people",
+  "compassionMessage": "For those whose lives are filled with sorrow and nights are spent in pain, we extend a hand of love.",
+  "donationDetails": "Your donation will reach the underprivileged children and people in need. Welcome to this journey of building a poverty-free and hunger-free Bangladesh.",
+  "foundationDescription": "The Deepayan Foundation is a non-political non-profit organization that empowers underprivileged people of the society in Bangladesh through various social welfare initiatives.",
+  "stayInTouch": "Let’s stay in touch",
+  "newsletterInvitation": "Join our newsletter for regular updates. No spam ever.",
+  "themeMode": "Theme Mode",
+  "emailAddress": "Email address",
+  "subscribe": "Subscribe",
+
+  "changeTheWorld": "Your Donation Can Change the World",
+
+  "maintenanceTitle": "Under Maintenance",
+  "maintenanceDescription": "This part of the Deepayan Foundation is currently undergoing maintenance. We are temporarily pausing certain operations to enhance our services and improve our overall impact on the underprivileged communities we serve. This brief pause allows us to assess our current processes and implement necessary upgrades to better meet the needs of those who rely on us. We understand that changes can be inconvenient, and we sincerely appreciate your understanding and patience during this time. Our commitment to empowering those in need remains unwavering. We are dedicated to ensuring that every service we offer is of the highest quality and effectiveness. While this section is under maintenance, please feel free to explore our other initiatives and projects. We encourage you to stay connected with us through our website and social media channels for updates. Thank you for your continued support and understanding as we work to create a more impactful foundation for the communities we serve."
 }

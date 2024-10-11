@@ -1,12 +1,22 @@
 {
-  "app": "App",
-  "job": "Job",
-  "user": "User",
-  "travel": "Travel",
-  "invoice": "Invoice",
-  "blog": {
-    "title": "Blog",
-    "caption": "Custom keyboard shortcuts."
-  },
-  "subheader": "Sub header"
+  "projects": "প্রকল্পসমূহ",
+  "selfEmployment": "স্বনির্ভর কর্মসংস্থান",
+  "foodDistribution": "খাদ্য বিতরণ",
+  "deepayanArragya": "দীপায়ন আরগ্য",
+  "deepayanArayanna": "দীপায়ন আরায়ান্না",
+  "deepayanAsram": "দীপায়ন আশ্রম",
+  "deepayanBondhu": "দীপায়ন বন্ধু",
+  "educationForABetterTomorrow": "ভালো আগামীকালের জন্য শিক্ষা",
+  "cleanWaterAndSanitation": "বিশুদ্ধ পানি এবং স্যানিটেশন",
+  "kurbani": "কুরবানি",
+  "courses": "কোর্সসমূহ",
+  "preMarriage": "বিয়ের পূর্বের প্রস্তুতি",
+  "smartParenting": "স্মার্ট প্যারেন্টিং",
+  "internship": "ইন্টার্নশিপ",
+  "more": "আরো",
+  "contactUs": "যোগাযোগ করুন",
+  "whoWeAre": "আমরা কারা",
+  "whatWeDo": "আমরা যা করি",
+  "home": "প্রথম পাতা",
+  "pages": "পৃষ্ঠাসমূহ"
 }

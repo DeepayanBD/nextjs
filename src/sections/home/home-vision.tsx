@@ -9,6 +9,8 @@ import { useTranslate } from "src/locales";
 import { banglaFont } from "src/theme/core";
 import { bgGradient } from "src/theme/styles";
 
+import { Markdown } from "src/components/markdown";
+
 import { SectionTitle } from "src/sections/components/section-title";
 
 export function HomeVision() {
@@ -36,12 +38,12 @@ export function HomeVision() {
       />
 
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 2 }}>
-        <SectionTitle className="font-bangla" title={t('ourGoal')} />
+        <SectionTitle className="font-bangla" title={t('sectionTitle')} />
 
         <Grid container spacing={6} sx={{ py: 4 }}>
           <Grid item xs={12} md={5} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: banglaFont }}>
             <Typography variant="body1" sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}>
-              <strong>{t('quote')}</strong> {t('quoteExplanation')}
+              <Markdown content={t('quote')} />
             </Typography>
             <Typography variant="body1" sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}>
               {t('belief')}

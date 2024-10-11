@@ -1,3 +1,5 @@
+'use client'
+
 import type { BoxProps } from '@mui/material/Box';
 import type { Theme, SxProps, Breakpoint } from '@mui/material/styles';
 
@@ -21,13 +23,14 @@ import { removeLastSlash } from 'src/routes/utils';
 
 import { useBoolean } from 'src/hooks/use-boolean';
 
+import { useTranslate } from 'src/locales';
 import { _socials } from 'src/constants/socials';
 
 import { Logo } from 'src/components/logo';
 import { Iconify, SocialIcon } from 'src/components/iconify';
 
+import { usePageLinks } from '../config-nav-main';
 import { ThemeMode } from '../components/theme-mode';
-import { pageLinks as listItems } from '../config-nav-main';
 
 import type { NavChildrenProps } from './nav/types';
 
@@ -73,14 +76,16 @@ export function Footer({ layoutQuery, sx, ...other }: FooterProps) {
 
   const pathname = usePathname();
 
+  const listItems = usePageLinks();
+
+  const { t } = useTranslate('common')
+
   const renderInfo = (
     <>
       <Logo />
 
       <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-        The Deepayan Foundation is a non-political non-profit organization that empowers
-        underprivileged people of the society in Bangladesh through various social welfare
-        initiatives.
+        {t('foundationDescription')}
       </Typography>
     </>
   );
@@ -89,25 +94,25 @@ export function Footer({ layoutQuery, sx, ...other }: FooterProps) {
     <>
       <div>
         <Typography variant="h6" sx={{ mb: 1 }}>
-          Let’s stay in touch
+          {t('stayInTouch')}
         </Typography>
         <Typography
           variant="caption"
           sx={{ maxWidth: 360, display: 'block', color: 'text.secondary' }}
         >
-          Join our newsletter for regular updates. No spam ever.
+          {t('newsletterInvitation')}
         </Typography>
       </div>
 
       <TextField
         fullWidth
         hiddenLabel
-        placeholder="Email address"
+        placeholder={t('emailAddress')}
         InputProps={{
           endAdornment: (
             <InputAdornment position="end">
               <Button variant="contained" color="inherit" size="large" sx={{ mr: -1.25 }}>
-                Subscribe
+                {t('subscribe')}
               </Button>
             </InputAdornment>
           ),
@@ -197,7 +202,7 @@ export function Footer({ layoutQuery, sx, ...other }: FooterProps) {
 
                 <SectionBlock layoutQuery={layoutQuery}>
                   <Stack spacing={2}>
-                    <Typography variant="h6">Theme Mode</Typography>
+                    <Typography variant="h6">{t('themeMode')}</Typography>
                     <ThemeMode />
                   </Stack>
                 </SectionBlock>

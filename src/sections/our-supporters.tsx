@@ -9,9 +9,12 @@ import logoSustainableDevelopmentGoals from '@/public/assets/logo/supporters/240
 
 import { Box, Link, Container, Typography } from '@mui/material';
 
+import { useTranslate } from 'src/locales';
 import { banglaFont } from 'src/theme/core';
 
 export function OurSupporters() {
+  const { t } = useTranslate('our-supporters');
+
   return (
     <Box sx={{ py: { xs: 8, lg: 10 }, px: { xs: 4, lg: 8 } }}>
       <Container sx={{ textAlign: 'center', display: 'grid', justifyContent: 'center' }}>
@@ -24,7 +27,7 @@ export function OurSupporters() {
             fontSize: { xs: '1rem', lg: '1.125rem' },
           }}
         >
-          More than 50+ foundations trust us
+          {t('partnerTrust')}
         </Typography>
         <Typography
           variant="h2"
@@ -36,7 +39,7 @@ export function OurSupporters() {
             fontSize: { xs: '1.75rem', lg: '2.25rem' },
           }}
         >
-          যাদের সহযোগিতায় আজকের দীপায়ন
+          {t('today')}
         </Typography>
         <Typography
           variant="body1"
@@ -48,7 +51,7 @@ export function OurSupporters() {
             px: { lg: 8 },
           }}
         >
-          {`From grassroots movements to world-renowned organizations, our partners span a diverse range of causes, each with distinct challenges we've expertly navigated to drive meaningful impact.`}
+          {t('partnerDescription')}
         </Typography>
 
         {/* Using CSS Grid for better alignment */}
@@ -88,7 +91,7 @@ export function OurSupporters() {
                 target="_blank"
                 sx={{ my: 1, color: 'inherit', textDecoration: 'none', typography: 'body2' }}
               >
-                Wooder BD
+                {t('partner1')}
               </Link>
             </Box>
 
@@ -105,7 +108,7 @@ export function OurSupporters() {
             >
               <Image src={logoIqra} alt="Iqra Foundation Logo" width={240} height={80} />
               <Typography variant="body2" sx={{ my: 1, color: 'inherit' }}>
-                Iqra Foundation
+                {t('partner2')}
               </Typography>
             </Box>
           </Box>
@@ -136,7 +139,7 @@ export function OurSupporters() {
               variant="subtitle2"
               sx={{ mt: 1.5, color: 'text.primary', maxWidth: '18rem', mx: 'auto' }}
             >
-              {`“Every year, the UN Secretary General presents an annual SDG Progress report, which is developed in cooperation with the UN System, and based on the global indicator framework and data produced by national statistical systems and information collected at the regional level."`}
+              {t('partner3')}
             </Typography>
           </Box>
 
@@ -163,7 +166,7 @@ export function OurSupporters() {
             >
               <Image src={logoSpotify} alt="Spotify Logo" width={240} height={80} />
               <Typography variant="body2" sx={{ my: 1, color: 'inherit' }}>
-                Spotify
+                {t('partner4')}
               </Typography>
             </Box>
             <Box
@@ -183,7 +186,7 @@ export function OurSupporters() {
                 target="_blank"
                 sx={{ my: 1, color: 'inherit', textDecoration: 'none', typography: 'body2' }}
               >
-                Durrbar
+                {t('partner5')}
               </Link>
             </Box>
           </Box>

@@ -1,12 +1,22 @@
 {
-  "app": "App",
-  "job": "Job",
-  "user": "User",
-  "travel": "Travel",
-  "invoice": "Invoice",
-  "blog": {
-    "title": "Blog",
-    "caption": "Custom keyboard shortcuts."
-  },
-  "subheader": "Sub header"
+  "projects": "Projects",
+  "selfEmployment": "Self Employment",
+  "foodDistribution": "Food Distribution",
+  "deepayanArragya": "Deepayan Arragya",
+  "deepayanArayanna": "Deepayan Arayanna",
+  "deepayanAsram": "Deepayan Asram",
+  "deepayanBondhu": "Deepayan Bondhu",
+  "educationForABetterTomorrow": "Education For A Better Tomorrow",
+  "cleanWaterAndSanitation": "Clean Water And Sanitation",
+  "kurbani": "Kurbani",
+  "courses": "Courses",
+  "preMarriage": "Pre-Marriage",
+  "smartParenting": "Smart Parenting",
+  "internship": "Internship",
+  "more": "More",
+  "contactUs": "Contact Us",
+  "whoWeAre": "Who We Are",
+  "whatWeDo": "What We Do",
+  "home": "Home",
+  "pages": "Pages"
 }

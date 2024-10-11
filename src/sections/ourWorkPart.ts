@@ -5,6 +5,15 @@ import imageWorkFour from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-
 import imageWorkFive from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.46.37-AM.jpeg';
 import imageWorkThree from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.55.05-AM.jpeg';
 
+export const imageList = [
+    imageWorkOne,
+    imageWorkTwo,
+    imageWorkThree,
+    imageWorkFour,
+    imageWorkFive,
+    imageWorkSix
+];
+
 export const ourWorkPart = [
     {
         id: '01.',

@@ -5,7 +5,7 @@ import sideImage from "@/public/assets/uploads/kurbani/bannerboy-1000x1024.jpg";
 
 import { Box, Grid, Stack, styled, Container, Typography } from "@mui/material";
 
-import { banglaFont } from "src/theme/core";
+import { useTranslate } from "src/locales";
 
 import { GetDonate } from "src/sections/get-donate";
 import { ImageGrid } from "src/sections/image-grid";
@@ -20,6 +20,7 @@ const StyledImage = styled(Image)(({ theme }) => ({
 }));
 
 export default function KurbaniView() {
+  const { t } = useTranslate('project')
   return (
     <>
       <Container
@@ -36,7 +37,7 @@ export default function KurbaniView() {
         }}
       >
         <Box sx={{ position: "relative", width: "100%" }}>
-          <SectionTitle title="প্রজেক্ট কুরবানি" />
+          <SectionTitle title={t('qurbaniTitle')} />
 
           <Grid
             container
@@ -61,20 +62,11 @@ export default function KurbaniView() {
 
             <Grid item xs={12} md={5} sx={{ display: "flex", alignItems: "center" }}>
               <Stack spacing={2} >
-                <Typography component="span" sx={{ fontFamily: banglaFont, color: 'text.primary' }}>
-                  কুরবানী, মহান আল্লাহর সন্তুষ্টি লাভের উদ্দেশে সামর্থবান মুসলিম
-                  বান্দাহর উপরে অসহায় বান্দার হক , কিন্তু কালের বিবর্তনে এই
-                  উৎসবটি নতুন ফ্রিজ কেনা আর গোস্ত খাবার উৎসবে পরিণত হয়েছে
-                  (আস্তাগফিরুল্লাহ) । এই চরম উর্ধগতির বাজারে পশু ক্রয়ের ক্ষমতা
-                  হারিয়েছে কয়েকলক্ষ পরিবার। এই পবিত্র উৎসবের দিনেও যেন কোনো
-                  মধ্যবিত্ত বা অসহায় মানুষের বাসায় অবুঝ শিশুর অবুঝ প্রশ্নে কোনো
-                  পিতার হৃদয়ে রক্তখরন না হয়, সেইজন্য আমাদের এই ছোট্ট উদ্যোগ। এই
-                  উদ্যোগে সামিল হতে পারেন আপনিও । ক্ষুধামুক্ত বাংলাদেশ গোড়ার
-                  লক্ষে যুক্ত হন আমাদের সাথে। আপনার একটি অনুদান হাসি ফোটাবে
-                  হাজারো অসহায় পরিবার এর মুখে।
+                <Typography component="span" sx={{ color: 'text.primary' }}>
+                  {t('qurbaniDescription')}
                 </Typography>
 
-                <DonateButton sx={{ width: { xs: '100%', sm: '100px' } }} />
+                <DonateButton sx={{ width: { xs: '100%', sm: '120px' }, display: 'flex' }} />
               </Stack>
             </Grid>
           </Grid>

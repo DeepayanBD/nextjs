@@ -1,16 +1,13 @@
 import type { NavSectionProps } from 'src/components/nav-section';
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import { styled, useTheme } from '@mui/material/styles';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
 
 import { Logo } from 'src/components/logo';
 
 import { HeaderSection } from './header-section';
 import { MenuButton } from '../components/menu-button';
+import { DonateButton } from '../components/donate-button';
 import { SettingsButton } from '../components/settings-button';
 import { LanguagePopover } from '../components/language-popover';
 
@@ -132,18 +129,7 @@ export function HeaderBase({
               {settings && <SettingsButton data-slot="settings" />}
 
               {/* -- Donate button -- */}
-              {donate && (
-                <Button
-                  data-slot="donate"
-                  href={paths.donate}
-                  LinkComponent={RouterLink}
-                  color='primary'
-                  variant='contained'
-                  sx={{ px: 2 }}
-                >
-                  Donate
-                </Button>
-              )}
+              {donate && <DonateButton data-slot="donate" />}
             </Box>
 
             {slots?.rightAreaEnd}

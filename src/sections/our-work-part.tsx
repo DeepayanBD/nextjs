@@ -6,9 +6,11 @@ import Image from "next/image";
 
 import { Box, Grid, Container, Typography } from "@mui/material";
 
+import { useTranslate } from "src/locales";
+
 import { SectionTitle } from "src/sections/components/section-title";
 
-import { ourWorkPart } from "./ourWorkPart";
+import { imageList } from "./ourWorkPart";
 
 interface ReviewCardPropsType {
   heading: string;
@@ -96,6 +98,41 @@ export function CardReview({ heading, image, details }: ReviewCardPropsType) {
 }
 
 export function OurWorkPart() {
+  const { t } = useTranslate('our-work-part');
+
+  const CONTENTS = [
+    {
+      id: t("id01"),
+      heading: t("heading01"),
+      details: t("details01"),
+    },
+    {
+      id: t("id02"),
+      heading: t("heading02"),
+      details: t("details02"),
+    },
+    {
+      id: t("id03"),
+      heading: t("heading03"),
+      details: t("details03"),
+    },
+    {
+      id: t("id04"),
+      heading: t("heading04"),
+      details: t("details04"),
+    },
+    {
+      id: t("id05"),
+      heading: t("heading05"),
+      details: t("details05"),
+    },
+    {
+      id: t("id06"),
+      heading: t("heading06"),
+      details: t("details06"),
+    },
+  ];
+
   return (
     <Box
       sx={{
@@ -105,16 +142,14 @@ export function OurWorkPart() {
       }}
     >
       <Container>
-        <SectionTitle
-          title="আমাদের কার্যক্রমের একাংশ"
-        />
+        <SectionTitle title={t('sectionTitle')} />
         <Container sx={{ mt: 10 }}>
           <Grid container spacing={4}>
-            {ourWorkPart.map(({ heading, image, details }, index) => (
+            {CONTENTS.map(({ heading, details }, index) => (
               <Grid item xs={12} sm={6} md={3} key={index}>
                 <CardReview
                   heading={heading}
-                  image={image}
+                  image={imageList[index]}
                   details={details} />
               </Grid>
             ))}

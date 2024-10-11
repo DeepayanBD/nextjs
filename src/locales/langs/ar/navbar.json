@@ -1,12 +1,22 @@
 {
-  "app": "تطبيق",
-  "job": "وظيفة",
-  "user": "مستخدم",
-  "travel": "السفر",
-  "invoice": "فاتورة",
-  "blog": {
-    "title": "مدونة",
-    "caption": "اختصارات لوحة المفاتيح المخصصة."
-  },
-  "subheader": "العنوان الفرعي"
+  "projects": "المشاريع",
+  "selfEmployment": "التوظيف الذاتي",
+  "foodDistribution": "توزيع الطعام",
+  "deepayanArragya": "ديبايان أراغيا",
+  "deepayanArayanna": "ديبايان أراياننا",
+  "deepayanAsram": "ديبايان أشرم",
+  "deepayanBondhu": "ديبايان بوندو",
+  "educationForABetterTomorrow": "التعليم من أجل غدٍ أفضل",
+  "cleanWaterAndSanitation": "المياه النظيفة والصرف الصحي",
+  "kurbani": "قرباني",
+  "courses": "الدورات",
+  "preMarriage": "قبل الزواج",
+  "smartParenting": "التربية الذكية",
+  "internship": "التدريب",
+  "more": "المزيد",
+  "contactUs": "اتصل بنا",
+  "whoWeAre": "من نحن",
+  "whatWeDo": "ماذا نفعل",
+  "home": "الرئيسية",
+  "pages": "الصفحات"
 }

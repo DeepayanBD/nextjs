@@ -36,7 +36,7 @@ export function HomeSpeech() {
       />
 
       <Container sx={{ position: 'relative', zIndex: 2, maxWidth: 'lg', px: { xs: 2, md: 4 } }}>
-        <SectionTitle title={t('aFewWords')} />
+        <SectionTitle title={t('sectionTitle')} />
 
         <Stack
           spacing={14}

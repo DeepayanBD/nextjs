@@ -5,6 +5,7 @@ import sideImage from "@/public/assets/svg/undraw_co-working_re_w93t.svg";
 
 import { Box, Grid, Stack, Container, Typography } from "@mui/material";
 
+import { useTranslate } from "src/locales";
 import { banglaFont } from "src/theme/core";
 
 import { GetDonate } from "src/sections/get-donate";
@@ -12,6 +13,7 @@ import { DonateButton } from "src/sections/components/donate-button";
 import { SectionTitle } from "src/sections/components/section-title";
 
 export function UnderMaintenanceView() {
+  const { t } = useTranslate()
   return (
     <>
       <Container
@@ -28,7 +30,7 @@ export function UnderMaintenanceView() {
         }}
       >
         <Box sx={{ position: "relative", width: "100%" }}>
-          <SectionTitle title="Under Maintenance" />
+          <SectionTitle title={t('maintenanceTitle')} />
 
           <Grid
             container
@@ -64,20 +66,7 @@ export function UnderMaintenanceView() {
                     color: "text.primary",
                   }}
                 >
-                  {`As a vital arm of our nonprofit NGO, the ongoing maintenance
-                  of our projects stands as a testament to our commitment to
-                  sustainable impact. With a dedicated team of volunteers and
-                  professionals, we ensure that every aspect of our initiatives
-                  remains finely tuned and responsive to the evolving needs of
-                  our communities. Whether it's maintaining infrastructure for
-                  education, healthcare, or environmental conservation, we
-                  approach each task with diligence and care. Regular
-                  assessments, repairs, and upgrades not only guarantee the
-                  longevity of our projects but also reinforce our promise to
-                  serve with excellence and integrity. Through this ongoing
-                  maintenance, we uphold the trust and support of our
-                  stakeholders, fostering a legacy of positive change that
-                  endures for generations to come.`}
+                  {t('maintenanceDescription')}
                 </Typography>
 
                 <DonateButton sx={{ width: { xs: '100%', md: '100px' } }} />

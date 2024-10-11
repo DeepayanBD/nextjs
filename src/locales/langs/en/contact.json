@@ -1,0 +1,23 @@
+{
+  "phone": {
+    "title": "Phone",
+    "details": "If you have an inquiry, please call us."
+  },
+  "email": {
+    "title": "Email",
+    "details": "You can contact us through email for help and support."
+  },
+  "location": {
+    "title": "Location",
+    "details": "8/7A Borobag (Azmat Garments Opposite Road), Mirpur - 2, Dhaka - 1216, Bangladesh",
+    "content": "View on Google map"
+  },
+  "form": {
+    "title": "Get in touch!",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "sendMessage": "Send Message"
+  }
+}

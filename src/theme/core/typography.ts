@@ -22,13 +22,13 @@ declare module '@mui/material/styles' {
 
 export const defaultFont = 'Public Sans';
 
-export const primaryFont = setFont(defaultFont);
-
-export const secondaryFont = setFont('Barlow');
+export const arabicFont = setFont('Lateef');
 
 export const banglaFont = setFont('Hind Siliguri');
 
-export const arabicFont = setFont('Lateef');
+export const primaryFont = setFont(defaultFont);
+
+export const secondaryFont = setFont('Barlow');
 
 // ----------------------------------------------------------------------
 

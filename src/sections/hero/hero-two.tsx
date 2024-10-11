@@ -3,10 +3,12 @@
 
 import { Box, Divider, Typography } from "@mui/material";
 
+import { useTranslate } from "src/locales";
 import { banglaFont } from "src/theme/core";
 import { bgGradient, stylesMode } from "src/theme/styles";
 
 export function HeroTwo() {
+  const { t } = useTranslate();
   return (
     <Box
       component="section"
@@ -44,7 +46,7 @@ export function HeroTwo() {
             color: 'white',
           }}
         >
-          একটি দারিদ্রমুক্ত দেশ গড়তে
+          {t('povertyFreeNation')}
         </Typography>
 
         <Divider
@@ -74,7 +76,7 @@ export function HeroTwo() {
             color: 'white',
           }}
         >
-          সোনার বাংলা পেতে চাই, সোনার মানুষ গড়বো তাই
+          {t('goldenBengal')}
         </Typography>
       </Box>
     </Box>

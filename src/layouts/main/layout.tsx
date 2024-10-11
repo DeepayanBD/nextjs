@@ -14,8 +14,8 @@ import { Footer } from './footer';
 import { NavMobile } from './nav/mobile';
 import { HeaderBase } from '../core/header-base';
 import { NavDesktopBorder } from './nav/desktop';
+import { useNavConfig } from '../config-nav-main';
 import { LayoutSection } from '../core/layout-section';
-import { navConfig as mainNavData } from '../config-nav-main';
 
 import type { NavMainProps } from './nav/types';
 
@@ -38,6 +38,8 @@ export function MainLayout({ sx, data, children, header }: MainLayoutProps) {
   const mobileNavOpen = useBoolean();
 
   const layoutQuery: Breakpoint = 'md';
+
+  const mainNavData = useNavConfig()
 
   const navData = data?.nav ?? mainNavData;
 

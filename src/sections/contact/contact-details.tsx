@@ -7,34 +7,37 @@ import { Box, Grid, Button, Container, TextField, Typography } from "@mui/materi
 
 import { RouterLink } from "src/routes/components";
 
+import { useTranslate } from "src/locales";
+
 import { Iconify } from "src/components/iconify";
 
-const contacts = [
-  {
-    icon: "uil:phone",
-    title: "Phone",
-    details: `If you have an inquiry please call us in necessary.`,
-    link: "tel:+8801799015558",
-    content: "+880 17990-15558",
-  },
-  {
-    icon: "uil:envelope",
-    title: "Email",
-    details: `You can contact throught e-mail for help and support.`,
-    link: "mailto:saifullah71tv@gmail.com",
-    content: "saifullah71tv@gmail.com",
-  },
-  {
-    icon: "uil:map-marker",
-    title: "Location",
-    details:
-      "8/7A Borobag (Azmat Garments Opposite Road), Mirpur - 2, Dhaka - 1216, Bangladesh",
-    link: "https://maps.app.goo.gl/PTpdsMZ8dKH4inxh8",
-    content: "View on Google map",
-  },
-];
-
 export default function ContactsDetails() {
+  const { t } = useTranslate('contact');
+
+  const contacts = [
+    {
+      icon: "uil:phone",
+      title: t("phone.title"), // translation key for phone title
+      details: t("phone.details"), // translation key for phone details
+      link: "tel:+8801799015558",
+      content: "+880 17990-15558",
+    },
+    {
+      icon: "uil:envelope",
+      title: t("email.title"), // translation key for email title
+      details: t("email.details"), // translation key for email details
+      link: "mailto:saifullah71tv@gmail.com",
+      content: "saifullah71tv@gmail.com",
+    },
+    {
+      icon: "uil:map-marker",
+      title: t("location.title"), // translation key for location title
+      details: t("location.details"), // translation key for location details
+      link: "https://maps.app.goo.gl/PTpdsMZ8dKH4inxh8",
+      content: t("location.content"), // translation key for location content (e.g., "View on Google map")
+    },
+  ];
+
   return (
     <Container component="section" sx={{ position: 'relative', py: { xs: 4, md: 6 }, px: { xs: 2, md: 6 } }}>
       <Grid container justifyContent="space-evenly" spacing={4}>
@@ -87,41 +90,37 @@ export default function ContactsDetails() {
         <Grid item xs={12} md={5}>
           <Box sx={{ padding: 3, bgcolor: 'background.paper', borderRadius: "8px", boxShadow: 2 }}>
             <Typography variant="h4" fontWeight="medium" mb={2}>
-              Get in touch!
+              {t("form.title")}
             </Typography>
             <form>
               <TextField
                 required
-                label="Name"
-
+                label={t("form.name")}
                 fullWidth
-                sx={{ mb: 2 }} />
+                sx={{ mb: 2 }}
+              />
               <TextField
                 required
-                label="Email"
-
+                label={t("form.email")}
                 fullWidth
-                sx={{ mb: 2 }} />
+                sx={{ mb: 2 }}
+              />
               <TextField
                 required
-                label="Subject"
-
+                label={t("form.subject")}
                 fullWidth
-                sx={{ mb: 2 }} />
+                sx={{ mb: 2 }}
+              />
               <TextField
                 required
-                label="Message"
-
+                label={t("form.message")}
                 fullWidth
                 multiline
                 rows={4}
-                sx={{ mb: 2 }} />
-              <Button
-                type="submit"
-                variant="contained"
-                color="primary"
-              >
-                Send Message
+                sx={{ mb: 2 }}
+              />
+              <Button type="submit" variant="contained" color="primary">
+                {t("form.sendMessage")} {/* "Send Message" */}
               </Button>
             </form>
           </Box>

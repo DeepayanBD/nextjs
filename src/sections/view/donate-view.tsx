@@ -9,7 +9,9 @@ import sonaliBankLogo from '@/public/assets/logo/donate/sonali-bank.svg';
 
 import { Box, Grid, Container, Typography } from '@mui/material';
 
+import { useTranslate } from 'src/locales';
 import { varAlpha } from 'src/theme/styles';
+import { banglaFont } from 'src/theme/core';
 
 const methods = [
   {
@@ -31,6 +33,8 @@ const methods = [
 ];
 
 export function DonateView() {
+  const { t } = useTranslate();
+
   return (
     <Box
       sx={{
@@ -82,9 +86,10 @@ export function DonateView() {
             <Typography
               variant="h2"
               component="h2"
-              sx={{ fontWeight: 'bold', color: 'white', mb: 3 }}
+              sx={{ fontWeight: 'bold', color: 'white', mb: 3, fontFamily: banglaFont }}
             >
-              Your Donation Can <br /> Change the World
+              {/* Your Donation Can <br /> Change the World */}
+              {t('changeTheWorld')}
             </Typography>
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
               {methods.map(({ name, logo, details }, index) => (
