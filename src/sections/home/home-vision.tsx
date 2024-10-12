@@ -1,17 +1,17 @@
-'use client'
+'use client';
 
-import Image from "next/image";
-import sideImage from "@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-11.19.24-AM-1024x768.jpeg";
+import Image from 'next/image';
+import sideImage from '@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-11.19.24-AM-1024x768.jpeg';
 
 import { Box, Grid, Container, Typography } from '@mui/material';
 
-import { useTranslate } from "src/locales";
-import { banglaFont } from "src/theme/core";
-import { bgGradient } from "src/theme/styles";
+import { useTranslate } from 'src/locales';
+import { banglaFont } from 'src/theme/core';
+import { bgGradient } from 'src/theme/styles';
 
-import { Markdown } from "src/components/markdown";
+import { Markdown } from 'src/components/markdown';
 
-import { SectionTitle } from "src/sections/components/section-title";
+import { SectionTitle } from 'src/sections/components/section-title';
 
 export function HomeVision() {
   const { t } = useTranslate('home/vision');
@@ -41,19 +41,46 @@ export function HomeVision() {
         <SectionTitle className="font-bangla" title={t('sectionTitle')} />
 
         <Grid container spacing={6} sx={{ py: 4 }}>
-          <Grid item xs={12} md={5} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', fontFamily: banglaFont }}>
-            <Typography variant="body1" sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}>
-              <Markdown content={t('quote')} />
-            </Typography>
-            <Typography variant="body1" sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}>
+          <Grid
+            item
+            xs={12}
+            md={5}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              fontFamily: banglaFont,
+            }}
+          >
+            <Markdown
+              content={t('quote')}
+              sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}
+            />
+            <Typography
+              variant="body1"
+              sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}
+            >
               {t('belief')}
             </Typography>
-            <Typography variant="body1" sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}>
+            <Typography
+              variant="body1"
+              sx={{ mb: 2, color: 'text.primary', fontFamily: banglaFont }}
+            >
               {t('request')}
             </Typography>
           </Grid>
 
-          <Grid item xs={12} md={7} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', aspectRatio: '137/103' }}>
+          <Grid
+            item
+            xs={12}
+            md={7}
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              aspectRatio: '137/103',
+            }}
+          >
             <Image
               style={{ borderRadius: '8px', aspectRatio: '137/103' }} // Add border-radius inline for MUI styling
               height={563}

@@ -70,9 +70,7 @@ export function OurGoal() {
                 {t('goalDescription')}
               </Typography>
 
-              <Typography variant="body1" fontFamily={banglaFont}>
-                <Markdown content={t('quote')} />
-              </Typography>
+              <Markdown content={t('quote')} fontFamily={banglaFont} />
 
               <Typography variant="body1" fontFamily={banglaFont}>
                 {t('belief')}

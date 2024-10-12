@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import sideImage from '@/public/assets/uploads/arraggya/side-image.jpeg';
 
-import { Box, Grid, Stack, Container, Typography } from '@mui/material';
+import { Box, Grid, Stack, Container } from '@mui/material';
 
 import { useTranslate } from 'src/locales';
 import { banglaFont } from 'src/theme/core';
@@ -47,17 +47,14 @@ export default function ArraggyaView() {
           >
             <Grid item xs={12} md={6} sx={{ display: 'flex', alignItems: 'center' }}>
               <Stack spacing={2}>
-                <Typography
-                  variant="body1"
+                <Markdown
+                  content={t('arraggyaDescription')}
                   sx={{
                     fontFamily: banglaFont,
                     color: 'text.primary',
                     textAlign: 'justify',
                   }}
-                >
-                  <Markdown content={t('arraggyaDescription')} />
-                </Typography>
-
+                />
                 <DonateButton sx={{ width: { xs: '100%', md: '100px' } }} />
               </Stack>
             </Grid>
