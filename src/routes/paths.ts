@@ -33,13 +33,13 @@ export const paths = {
   project: {
     root: ROOTS.PROJECT,
     selfEmployment: `${ROOTS.PROJECT}/maintenance`,
-    foodDistribution: `${ROOTS.PROJECT}/maintenance`,
+    foodDistribution: `${ROOTS.PROJECT}/food`,
     deepayanArragya: `${ROOTS.PROJECT}/arraggya`,
     deepayanArayanna: `${ROOTS.PROJECT}/maintenance`,
     deepayanAsram: `${ROOTS.PROJECT}/maintenance`,
     deepayanBondhu: `${ROOTS.PROJECT}/maintenance`,
     educationForABetterTomorrow: `${ROOTS.PROJECT}/maintenance`,
     cleanWaterAndSanitation: `${ROOTS.PROJECT}/maintenance`,
-    kurbani: `${ROOTS.PROJECT}/kurbani`,
+    qurbani: `${ROOTS.PROJECT}/qurbani`,
   },
 };

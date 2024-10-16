@@ -50,8 +50,8 @@ export const usePageLinks = () => {
           path: paths.project.cleanWaterAndSanitation,
         },
         {
-          title: t('kurbani'),
-          path: paths.project.kurbani,
+          title: t('qurbani'),
+          path: paths.project.qurbani,
         },
       ],
     },
