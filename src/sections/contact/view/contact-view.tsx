@@ -1,9 +1,9 @@
-import { HeroOne } from "src/sections/hero/hero-one";
+import { HeroOne } from "src/sections/components/hero/hero-one";
 
-import ContactMap from "../contact-map";
-import ContactsDetails from "../contact-details";
+import { ContactMap } from "../contact-map";
+import { ContactsDetails } from "../contact-details";
 
-export default function ContactView() {
+export function ContactView() {
   return (
     <>
       <HeroOne />

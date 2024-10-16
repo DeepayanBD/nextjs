@@ -8,7 +8,7 @@ import { Box, Grid, Stack, Container, Typography } from "@mui/material";
 import { useTranslate } from "src/locales";
 import { banglaFont } from "src/theme/core";
 
-import { GetDonate } from "src/sections/get-donate";
+import { GetDonate } from "src/sections/components/get-donate";
 import { DonateButton } from "src/sections/components/donate-button";
 import { SectionTitle } from "src/sections/components/section-title";
 

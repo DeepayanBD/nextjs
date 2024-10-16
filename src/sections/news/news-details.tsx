@@ -7,7 +7,7 @@ import { fDate, formatStr } from "src/utils/format-time";
 
 import type { INewsItem } from "../../types/news";
 
-export default function PostDetails({ post }: { post: INewsItem }) {
+export function PostDetails({ post }: { post: INewsItem }) {
   return (
     <>
       <Container className="!pt-0">

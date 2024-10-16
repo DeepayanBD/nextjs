@@ -10,8 +10,8 @@ import { banglaFont } from 'src/theme/core';
 
 import { Markdown } from 'src/components/markdown';
 
-import { GetDonate } from 'src/sections/get-donate';
-import { ImageGrid } from 'src/sections/image-grid';
+import { ImageGrid } from 'src/sections/components/image-grid';
+import { GetDonate } from 'src/sections/components/get-donate';
 import { DonateButton } from 'src/sections/components/donate-button';
 import { SectionTitle } from 'src/sections/components/section-title';
 

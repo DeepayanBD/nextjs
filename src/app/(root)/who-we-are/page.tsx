@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
-import WhoWeAreView from "src/sections/who-we-are/who-we-are-view";
+import { WhoWeAreView } from "src/sections/view/who-we-are-view";
 
 export const metadata: Metadata = {
   title: "Who We Are",

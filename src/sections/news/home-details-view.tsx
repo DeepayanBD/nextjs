@@ -1,3 +1,3 @@
-export default function HomeDetailsView() {
+export function HomeDetailsView() {
   return <>News list</>;
 }

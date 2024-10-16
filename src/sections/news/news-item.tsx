@@ -7,7 +7,7 @@ import { fDate, formatStr } from "src/utils/format-time";
 
 import { Iconify } from "src/components/iconify";
 
-export default function NewsItem({ post }: { post: INewsItem }) {
+export function NewsItem({ post }: { post: INewsItem }) {
   return (
     <div className="group cursor-pointer">
       <div className="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">

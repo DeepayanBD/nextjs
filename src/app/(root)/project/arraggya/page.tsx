@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
-import ArraggyaView from "src/sections/project/view/arraggya-view";
+import { ArraggyaView } from "src/sections/project/view/arraggya-view";
 
 export const metadata: Metadata = {
   title: "Arraggya",

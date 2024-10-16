@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
-import QurbaniView from "src/sections/project/view/qurbani-view";
+import { QurbaniView } from "src/sections/project/view/qurbani-view";
 
 export const metadata: Metadata = {
   title: "Qurbani",

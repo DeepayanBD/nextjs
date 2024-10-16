@@ -8,7 +8,7 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { arraggyaImages } from '../arraggya';
 
-export default function ArraggyaView() {
+export function ArraggyaView() {
   const { t } = useTranslate('project');
 
   return (

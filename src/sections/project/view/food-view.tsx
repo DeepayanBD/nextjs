@@ -8,7 +8,7 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { foodImages } from '../food';
 
-export default function FoodView() {
+export function FoodView() {
     const { t } = useTranslate('project');
 
     return (

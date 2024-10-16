@@ -1,4 +1,4 @@
-export default function Internship() {
+export function Internship() {
   return (
     <div className="py-32 flex justify-center items-center">Internship</div>
   );

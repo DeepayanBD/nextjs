@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
-import FoodView from "src/sections/project/view/food-view";
+import { FoodView } from "src/sections/project/view/food-view";
 
 export const metadata: Metadata = {
     title: "Food Distribution",

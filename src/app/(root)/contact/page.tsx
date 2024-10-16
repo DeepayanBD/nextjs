@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
-import ContactView from "src/sections/contact/view/contact-view";
+import { ContactView } from "src/sections/contact/view/contact-view";
 
 export const metadata: Metadata = {
   title: "Contact",

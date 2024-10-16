@@ -31,7 +31,7 @@ export function ImageGrid({ images }: { images: StaticImageData[] | string[] }) 
     <GradientSection>
       <Box sx={{ mx: 'auto', maxWidth: 'lg' }}>
         <Box sx={{ py: 6 }}>
-          <Grid container spacing={4}>
+          <Grid justifyContent="center" container spacing={4}>
             {images.map((image, index) => (
               <Grid item xs={12} sm={6} md={3} key={index}>
                 <Box

@@ -1,6 +1,6 @@
 import { Box, Grid, Container } from "@mui/material";
 
-export default function ContactMap() {
+export function ContactMap() {
   return (
     <Container maxWidth={false} disableGutters>
       <Grid container>

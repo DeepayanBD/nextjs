@@ -8,7 +8,7 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { qurbaniImages } from '../qurbani';
 
-export default function QurbaniView() {
+export function QurbaniView() {
   const { t } = useTranslate('project');
 
   return (
