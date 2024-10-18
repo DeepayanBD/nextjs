@@ -26,7 +26,6 @@ export function CommonView({ images, sectionDescription, sideImage, sectiontitle
     return (
         <>
             <Container
-                disableGutters
                 sx={{
                     minHeight: '100%',
                     position: 'relative',
@@ -45,7 +44,7 @@ export function CommonView({ images, sectionDescription, sideImage, sectiontitle
                         container
                         direction={{ xs: 'column-reverse', md: 'row' }}
                         spacing={4}
-                        sx={{ px: 4, py: 8 }}
+                        sx={{ py: 8 }}
                     >
                         <Grid item xs={12} md={6} sx={{ display: 'flex', alignItems: 'center' }}>
                             <Stack spacing={2}>

@@ -24,6 +24,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Page() {
+export default function WhoWeArePage() {
   return <WhoWeAreView />;
 }

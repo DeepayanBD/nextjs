@@ -22,18 +22,18 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: {
     template: `%s – ${CONFIG.site.name}`,
-    default: `${CONFIG.site.name}`,
+    default: CONFIG.site.name,
   },
   description:
     'The Deepayan Foundation is a non-political non-profit organization that empowers underprivileged people of the society in Bangladesh through various social welfare initiatives. We have various projects. Our work improves lives in areas like healthcare, education, and poverty reduction. You can help the underprivileged people of the society to move forward.',
   keywords: ['Deepayan', 'Foundation', 'Bangladesh', 'NGO'],
   metadataBase: new URL('https://www.deepayan.org'),
   openGraph: {
-    title: 'Deepayan Foundation',
+    title: CONFIG.site.name,
     description:
       'The Deepayan Foundation is a non-political non-profit organization that empowers underprivileged people of the society in Bangladesh through various social welfare initiatives. We have various projects. Our work improves lives in areas like healthcare, education, and poverty reduction. You can help the underprivileged people of the society to move forward.',
     url: 'https://www.deepayan.org',
-    siteName: 'Deepayan Foundation',
+    siteName: CONFIG.site.name,
     images: [
       {
         url: deepRec.src, // Must be an absolute URL
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Deepayan Foundation',
+    title: CONFIG.site.name,
     description:
       'The Deepayan Foundation is a non-political non-profit organization that empowers underprivileged people of the society in Bangladesh through various social welfare initiatives. We have various projects. Our work improves lives in areas like healthcare, education, and poverty reduction. You can help the underprivileged people of the society to move forward.',
     siteId: '1467726470533754880',
