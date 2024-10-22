@@ -1,6 +1,7 @@
 'use client';
 
 import type { StaticImageData } from 'next/image';
+import type { Theme } from '@mui/material/styles';
 
 import Image from 'next/image';
 
@@ -27,6 +28,11 @@ const GradientSection = styled(Box)(({ theme }) => ({
 }));
 
 export function ImageGrid({ images }: { images: StaticImageData[] | string[] }) {
+  const transition = (theme: Theme) =>
+    theme.transitions.create(['transform'], {
+      easing: theme.transitions.easing.sharp,
+      duration: theme.transitions.duration.complex,
+    });
   return (
     <GradientSection>
       <Box sx={{ mx: 'auto', maxWidth: 'lg' }}>
@@ -39,6 +45,12 @@ export function ImageGrid({ images }: { images: StaticImageData[] | string[] }) 
                     aspectRatio: '4 / 3',
                     overflow: 'hidden',
                     borderRadius: '8px',
+                    '& img': {
+                      transition
+                    },
+                    '&:hover img': {
+                      transform: 'scale(1.06)'
+                    }
                   }}
                 >
                   <Image
