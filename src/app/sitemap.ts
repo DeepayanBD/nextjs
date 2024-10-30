@@ -39,7 +39,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.5,
         },
         {
-            url: 'https://www.deepayan.org/project/kurbani',
+            url: 'https://www.deepayan.org/project/food',
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.5,
+        },
+        {
+            url: 'https://www.deepayan.org/project/qurbani',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.5,
