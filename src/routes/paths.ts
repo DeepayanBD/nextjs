@@ -2,8 +2,8 @@
 // ----------------------------------------------------------------------
 
 const ROOTS = {
-  COURSE: '/course',
-  PROJECT: '/project',
+  COURSES: '/courses',
+  PROJECTS: '/projects',
 };
 
 // ----------------------------------------------------------------------
@@ -21,25 +21,25 @@ export const paths = {
   whoWeAre: '/who-we-are',
   pages: 'pages',
 
-  // Course
-  course: {
-    root: ROOTS.COURSE,
-    preMarriage: `${ROOTS.COURSE}/pre-marriage`,
-    smartParenting: `${ROOTS.COURSE}/smart-parenting`,
-    internship: `${ROOTS.COURSE}/internship`,
+  // Courses
+  courses: {
+    root: ROOTS.COURSES,
+    preMarriage: `${ROOTS.COURSES}/pre-marriage`,
+    smartParenting: `${ROOTS.COURSES}/smart-parenting`,
+    internship: `${ROOTS.COURSES}/internship`,
   },
 
-  // Project
-  project: {
-    root: ROOTS.PROJECT,
-    selfEmployment: `${ROOTS.PROJECT}/maintenance`,
-    foodDistribution: `${ROOTS.PROJECT}/food`,
-    arragya: `${ROOTS.PROJECT}/arraggya`,
-    arayanna: `${ROOTS.PROJECT}/maintenance`,
-    asram: `${ROOTS.PROJECT}/maintenance`,
-    bondhu: `${ROOTS.PROJECT}/maintenance`,
-    educationForABetterTomorrow: `${ROOTS.PROJECT}/maintenance`,
-    cleanWaterAndSanitation: `${ROOTS.PROJECT}/maintenance`,
-    qurbani: `${ROOTS.PROJECT}/qurbani`,
+  // Projects
+  projects: {
+    root: ROOTS.PROJECTS,
+    selfEmployment: `${ROOTS.PROJECTS}/maintenance`,
+    foodDistribution: `${ROOTS.PROJECTS}/food`,
+    arragya: `${ROOTS.PROJECTS}/arraggya`,
+    arayanna: `${ROOTS.PROJECTS}/maintenance`,
+    asram: `${ROOTS.PROJECTS}/maintenance`,
+    bondhu: `${ROOTS.PROJECTS}/maintenance`,
+    educationForABetterTomorrow: `${ROOTS.PROJECTS}/maintenance`,
+    cleanWaterAndSanitation: `${ROOTS.PROJECTS}/maintenance`,
+    qurbani: `${ROOTS.PROJECTS}/qurbani`,
   },
 };

@@ -4,8 +4,8 @@ import { CONFIG } from "src/config-global";
 
 export const metadata: Metadata = {
   title: {
-    template: `%s – Course – ${CONFIG.site.name}`,
-    default: `Course – ${CONFIG.site.name}`,
+    template: `%s – Projects – ${CONFIG.site.name}`,
+    default: `Projects – ${CONFIG.site.name}`,
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Food Distribution",
     openGraph: {
         title: "Food Distribution – Project – Deepayan Foundation",
-        url: "https://www.deepayan.org/project/food",
+        url: "https://www.deepayan.org/projects/food-distribution",
         images: [
             {
                 url: deepRec.src,

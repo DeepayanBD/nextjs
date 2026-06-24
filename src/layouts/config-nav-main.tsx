@@ -18,40 +18,40 @@ export const usePageLinks = () => {
       subheader: t('projects.root'),
       items: [
         {
-          title: t('projects.selfEmployment'),
-          path: paths.project.selfEmployment,
-        },
-        {
-          title: t('projects.foodDistribution'),
-          path: paths.project.foodDistribution,
+          title: t('projects.arayanna'),
+          path: paths.projects.arayanna,
         },
         {
           title: t('projects.arragya'),
-          path: paths.project.arragya,
-        },
-        {
-          title: t('projects.arayanna'),
-          path: paths.project.arayanna,
+          path: paths.projects.arragya,
         },
         {
           title: t('projects.asram'),
-          path: paths.project.asram,
+          path: paths.projects.asram,
         },
         {
           title: t('projects.bondhu'),
-          path: paths.project.bondhu,
-        },
-        {
-          title: t('projects.educationForABetterTomorrow'),
-          path: paths.project.educationForABetterTomorrow,
+          path: paths.projects.bondhu,
         },
         {
           title: t('projects.cleanWaterAndSanitation'),
-          path: paths.project.cleanWaterAndSanitation,
+          path: paths.projects.cleanWaterAndSanitation,
+        },
+        {
+          title: t('projects.educationForABetterTomorrow'),
+          path: paths.projects.educationForABetterTomorrow,
+        },
+        {
+          title: t('projects.foodDistribution'),
+          path: paths.projects.foodDistribution,
         },
         {
           title: t('projects.qurbani'),
-          path: paths.project.qurbani,
+          path: paths.projects.qurbani,
+        },
+        {
+          title: t('projects.selfEmployment'),
+          path: paths.projects.selfEmployment,
         },
       ],
     },
@@ -61,16 +61,16 @@ export const usePageLinks = () => {
       coverUrl: imagePath('career.webp'),
       items: [
         {
+          title: t('courses.internship'),
+          path: paths.courses.internship,
+        },
+        {
           title: t('courses.preMarriage'),
-          path: paths.course.preMarriage,
+          path: paths.courses.preMarriage,
         },
         {
           title: t('courses.smartParenting'),
-          path: paths.course.smartParenting,
-        },
-        {
-          title: t('courses.internship'),
-          path: paths.course.internship,
+          path: paths.courses.smartParenting,
         },
       ],
     },
@@ -81,12 +81,12 @@ export const usePageLinks = () => {
       items: [
         { title: t('more.contactUs'), path: paths.contact },
         {
-          title: t('more.whoWeAre'),
-          path: paths.whoWeAre,
-        },
-        {
           title: t('more.whatWeDo'),
           path: paths.whatWeDo,
+        },
+        {
+          title: t('more.whoWeAre'),
+          path: paths.whoWeAre,
         },
       ],
     },

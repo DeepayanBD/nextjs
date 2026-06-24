@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 
-import { QurbaniView } from "src/sections/project/view/qurbani-view";
+import { UnderMaintenanceView } from "src/sections/view/under-maintenance-view";
 
 export const metadata: Metadata = {
-  title: "Qurbani",
+  title: "Arayanna",
   openGraph: {
-    title: "Qurbani – Project – Deepayan Foundation",
-    url: "https://www.deepayan.org/project/qurbani",
+    title: "Arayanna – Project – Deepayan Foundation",
+    url: "https://www.deepayan.org/projects/arayanna",
     images: [
       {
         url: deepRec.src,
@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Qurbani – Project – Deepayan Foundation",
+    title: "Arayanna – Project – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },
 };
 
-export default function QurbaniPage() {
-  return <QurbaniView />;
+export default function Page() {
+  return <UnderMaintenanceView />;
 }

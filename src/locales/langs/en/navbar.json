@@ -1,15 +1,15 @@
 {
   "projects": {
     "root": "Projects",
-    "selfEmployment": "Self Employment",
-    "foodDistribution": "Food Distribution",
-    "arragya": "Arragya",
     "arayanna": "Arayanna",
+    "arragya": "Arragya",
     "asram": "Asram",
     "bondhu": "Bondhu",
-    "educationForABetterTomorrow": "Education For A Better Tomorrow",
     "cleanWaterAndSanitation": "Clean Water And Sanitation",
-    "qurbani": "Qurbani"
+    "educationForABetterTomorrow": "Education For A Better Tomorrow",
+    "foodDistribution": "Food Distribution",
+    "qurbani": "Qurbani",
+    "selfEmployment": "Self Employment"
   },
   "courses": {
     "root": "Courses",
