@@ -1,22 +1,28 @@
 {
-  "projects": "Projects",
-  "selfEmployment": "Self Employment",
-  "foodDistribution": "Food Distribution",
-  "deepayanArragya": "Deepayan Arragya",
-  "deepayanArayanna": "Deepayan Arayanna",
-  "deepayanAsram": "Deepayan Asram",
-  "deepayanBondhu": "Deepayan Bondhu",
-  "educationForABetterTomorrow": "Education For A Better Tomorrow",
-  "cleanWaterAndSanitation": "Clean Water And Sanitation",
-  "qurbani": "Qurbani",
-  "courses": "Courses",
-  "preMarriage": "Pre-Marriage",
-  "smartParenting": "Smart Parenting",
-  "internship": "Internship",
-  "more": "More",
-  "contactUs": "Contact Us",
-  "whoWeAre": "Who We Are",
-  "whatWeDo": "What We Do",
+  "projects": {
+    "root": "Projects",
+    "selfEmployment": "Self Employment",
+    "foodDistribution": "Food Distribution",
+    "arragya": "Arragya",
+    "arayanna": "Arayanna",
+    "asram": "Asram",
+    "bondhu": "Bondhu",
+    "educationForABetterTomorrow": "Education For A Better Tomorrow",
+    "cleanWaterAndSanitation": "Clean Water And Sanitation",
+    "qurbani": "Qurbani"
+  },
+  "courses": {
+    "root": "Courses",
+    "preMarriage": "Pre-Marriage",
+    "smartParenting": "Smart Parenting",
+    "internship": "Internship"
+  },
+  "more": {
+    "root": "More",
+    "contactUs": "Contact Us",
+    "whoWeAre": "Who We Are",
+    "whatWeDo": "What We Do"
+  },
   "home": "Home",
   "pages": "Pages"
 }

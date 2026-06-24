@@ -1,22 +1,28 @@
 {
-  "projects": "المشاريع",
-  "selfEmployment": "التوظيف الذاتي",
-  "foodDistribution": "توزيع الطعام",
-  "deepayanArragya": "ديبايان أراغيا",
-  "deepayanArayanna": "ديبايان أراياننا",
-  "deepayanAsram": "ديبايان أشرم",
-  "deepayanBondhu": "ديبايان بوندو",
-  "educationForABetterTomorrow": "التعليم من أجل غدٍ أفضل",
-  "cleanWaterAndSanitation": "المياه النظيفة والصرف الصحي",
-  "qurbani": "قرباني",
-  "courses": "الدورات",
-  "preMarriage": "قبل الزواج",
-  "smartParenting": "التربية الذكية",
-  "internship": "التدريب",
-  "more": "المزيد",
-  "contactUs": "اتصل بنا",
-  "whoWeAre": "من نحن",
-  "whatWeDo": "ماذا نفعل",
+  "projects": {
+    "root": "المشاريع",
+    "selfEmployment": "التوظيف الذاتي",
+    "foodDistribution": "توزيع الطعام",
+    "arragya": "أراغيا",
+    "arayanna": "أراياننا",
+    "asram": "أشرم",
+    "bondhu": "بوندو",
+    "educationForABetterTomorrow": "التعليم من أجل غدٍ أفضل",
+    "cleanWaterAndSanitation": "المياه النظيفة والصرف الصحي",
+    "qurbani": "قرباني"
+  },
+  "courses": {
+    "root": "الدورات",
+    "preMarriage": "قبل الزواج",
+    "smartParenting": "التربية الذكية",
+    "internship": "التدريب"
+  },
+  "more": {
+    "root": "المزيد",
+    "contactUs": "اتصل بنا",
+    "whoWeAre": "من نحن",
+    "whatWeDo": "ماذا نفعل"
+  },
   "home": "الرئيسية",
   "pages": "الصفحات"
 }

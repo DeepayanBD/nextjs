@@ -11,81 +11,81 @@ import { Iconify } from 'src/components/iconify';
 const imagePath = (name: string) => `${CONFIG.site.assetURL}/assets/images/menu/${name}`;
 
 export const usePageLinks = () => {
-  const { t } = useTranslate('navbar'); // Using t function from react-i18next
+  const { t } = useTranslate('navbar');
 
   return [
     {
-      subheader: t('projects'),
+      subheader: t('projects.root'),
       items: [
         {
-          title: t('selfEmployment'),
+          title: t('projects.selfEmployment'),
           path: paths.project.selfEmployment,
         },
         {
-          title: t('foodDistribution'),
+          title: t('projects.foodDistribution'),
           path: paths.project.foodDistribution,
         },
         {
-          title: t('deepayanArragya'),
-          path: paths.project.deepayanArragya,
+          title: t('projects.arragya'),
+          path: paths.project.arragya,
         },
         {
-          title: t('deepayanArayanna'),
-          path: paths.project.deepayanArayanna,
+          title: t('projects.arayanna'),
+          path: paths.project.arayanna,
         },
         {
-          title: t('deepayanAsram'),
-          path: paths.project.deepayanAsram,
+          title: t('projects.asram'),
+          path: paths.project.asram,
         },
         {
-          title: t('deepayanBondhu'),
-          path: paths.project.deepayanBondhu,
+          title: t('projects.bondhu'),
+          path: paths.project.bondhu,
         },
         {
-          title: t('educationForABetterTomorrow'),
+          title: t('projects.educationForABetterTomorrow'),
           path: paths.project.educationForABetterTomorrow,
         },
         {
-          title: t('cleanWaterAndSanitation'),
+          title: t('projects.cleanWaterAndSanitation'),
           path: paths.project.cleanWaterAndSanitation,
         },
         {
-          title: t('qurbani'),
+          title: t('projects.qurbani'),
           path: paths.project.qurbani,
         },
       ],
     },
     {
       order: '4',
-      subheader: t('courses'),
+      subheader: t('courses.root'),
       coverUrl: imagePath('career.webp'),
       items: [
         {
-          title: t('preMarriage'),
+          title: t('courses.preMarriage'),
           path: paths.course.preMarriage,
         },
         {
-          title: t('smartParenting'),
+          title: t('courses.smartParenting'),
           path: paths.course.smartParenting,
         },
         {
-          title: t('internship'),
+          title: t('courses.internship'),
           path: paths.course.internship,
         },
       ],
     },
     {
       order: '6',
-      subheader: t('more'),
+      subheader: t('more.root'),
       coverUrl: imagePath('e-commerce.webp'),
       items: [
-        { title: t('contactUs'), path: paths.contact },
+        { title: t('more.contactUs'), path: paths.contact },
         {
-          title: t('whoWeAre'),
+          title: t('more.whoWeAre'),
           path: paths.whoWeAre,
         },
         {
-          title: t('whatWeDo'),
+          title: t('more.whatWeDo'),
           path: paths.whatWeDo,
         },
       ],
@@ -102,7 +102,7 @@ export const useNavConfig = () => {
       title: t('pages'),
       path: paths.pages,
       icon: <Iconify width={22} icon="solar:file-bold-duotone" />,
-      children: usePageLinks(), // Fetch the translated page links
+      children: usePageLinks(),
     },
   ];
 };
