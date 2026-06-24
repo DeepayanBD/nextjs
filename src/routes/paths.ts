@@ -24,22 +24,22 @@ export const paths = {
   // Courses
   courses: {
     root: ROOTS.COURSES,
+    internship: `${ROOTS.COURSES}/internship`,
     preMarriage: `${ROOTS.COURSES}/pre-marriage`,
     smartParenting: `${ROOTS.COURSES}/smart-parenting`,
-    internship: `${ROOTS.COURSES}/internship`,
   },
 
   // Projects
   projects: {
     root: ROOTS.PROJECTS,
-    selfEmployment: `${ROOTS.PROJECTS}/maintenance`,
-    foodDistribution: `${ROOTS.PROJECTS}/food`,
+    arayanna: `${ROOTS.PROJECTS}/arayanna`,
     arragya: `${ROOTS.PROJECTS}/arraggya`,
-    arayanna: `${ROOTS.PROJECTS}/maintenance`,
-    asram: `${ROOTS.PROJECTS}/maintenance`,
-    bondhu: `${ROOTS.PROJECTS}/maintenance`,
-    educationForABetterTomorrow: `${ROOTS.PROJECTS}/maintenance`,
-    cleanWaterAndSanitation: `${ROOTS.PROJECTS}/maintenance`,
+    asram: `${ROOTS.PROJECTS}/asram`,
+    bondhu: `${ROOTS.PROJECTS}/bondhu`,
+    cleanWaterAndSanitation: `${ROOTS.PROJECTS}/clean-water-and-sanitation`,
+    educationForABetterTomorrow: `${ROOTS.PROJECTS}/education-for-a-better-tomorrow`,
+    foodDistribution: `${ROOTS.PROJECTS}/food-distribution`,
     qurbani: `${ROOTS.PROJECTS}/qurbani`,
+    selfEmployment: `${ROOTS.PROJECTS}/self-employment`,
   },
 };
