@@ -15,7 +15,7 @@ export const paths = {
   },
 
   // ROOT
-  contact: '/contact',
+  contact: '/contact-us',
   donate: '/donate',
   whatWeDo: '/what-we-do',
   whoWeAre: '/who-we-are',
