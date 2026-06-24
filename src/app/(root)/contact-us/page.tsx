@@ -5,9 +5,9 @@ import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 import { ContactView } from "src/sections/contact/view/contact-view";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact Us",
   openGraph: {
-    title: "Contact – Deepayan Foundation",
+    title: "Contact Us – Deepayan Foundation",
     url: "https://www.deepayan.org/contact",
     images: [
       {
