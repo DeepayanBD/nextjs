@@ -6,6 +6,9 @@ import { UnderMaintenanceView } from "src/sections/view/under-maintenance-view";
 
 export const metadata: Metadata = {
   title: "Pre Marraige",
+  alternates: {
+    canonical: '/courses/pre-marriage',
+  },
   openGraph: {
     title: "Pre Marraige – Course – Deepayan Foundation",
     url: "https://www.deepayan.org/course/pre-marriage",

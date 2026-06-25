@@ -6,6 +6,9 @@ import { DonateView } from "src/sections/view/donate-view";
 
 export const metadata: Metadata = {
   title: "Donate",
+  alternates: {
+    canonical: '/donate',
+  },
   openGraph: {
     title: "Donate – Deepayan Foundation",
     url: "https://www.deepayan.org/donate",

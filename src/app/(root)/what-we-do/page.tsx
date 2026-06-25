@@ -6,6 +6,9 @@ import { WhatWeDoView } from "src/sections/view/what-we-do-view";
 
 export const metadata: Metadata = {
   title: "What We Do",
+  alternates: {
+    canonical: '/what-we-do',
+  },
   openGraph: {
     title: "What We Do – Deepayan Foundation",
     url: "https://www.deepayan.org/what-we-do",

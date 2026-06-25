@@ -6,6 +6,9 @@ import { UnderMaintenanceView } from "src/sections/view/under-maintenance-view";
 
 export const metadata: Metadata = {
   title: "Smart Parenting",
+  alternates: {
+    canonical: '/courses/smart-parenting',
+  },
   openGraph: {
     title: "Smart Parenting – Course – Deepayan Foundation",
     url: "https://www.deepayan.org/course/smart-parnting",

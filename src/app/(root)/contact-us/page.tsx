@@ -6,9 +6,12 @@ import { ContactView } from "src/sections/contact/view/contact-view";
 
 export const metadata: Metadata = {
   title: "Contact Us",
+  alternates: {
+    canonical: '/contact-us',
+  },
   openGraph: {
     title: "Contact Us – Deepayan Foundation",
-    url: "https://www.deepayan.org/contact",
+    url: "https://www.deepayan.org/contact-us",
     images: [
       {
         url: deepRec.src,

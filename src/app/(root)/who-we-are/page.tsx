@@ -6,6 +6,9 @@ import { WhoWeAreView } from "src/sections/view/who-we-are-view";
 
 export const metadata: Metadata = {
   title: "Who We Are",
+  alternates: {
+    canonical: '/who-we-are',
+  },
   openGraph: {
     title: "Who We Are – Deepayan Foundation",
     url: "https://www.deepayan.org/who-we-are",

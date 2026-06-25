@@ -6,6 +6,9 @@ import { UnderMaintenanceView } from "src/sections/view/under-maintenance-view";
 
 export const metadata: Metadata = {
   title: "Arayanna",
+  alternates: {
+    canonical: '/projects/arayanna',
+  },
   openGraph: {
     title: "Arayanna – Project – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/arayanna",

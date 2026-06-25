@@ -6,6 +6,9 @@ import { QurbaniView } from "src/sections/project/view/qurbani-view";
 
 export const metadata: Metadata = {
   title: "Qurbani",
+  alternates: {
+    canonical: '/projects/qurbani',
+  },
   openGraph: {
     title: "Qurbani – Project – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/qurbani",

@@ -6,6 +6,9 @@ import { ArraggyaView } from "src/sections/project/view/arraggya-view";
 
 export const metadata: Metadata = {
   title: "Arraggya",
+  alternates: {
+    canonical: '/projects/arraggya',
+  },
   openGraph: {
     title: "Arraggya – Project – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/arraggya",
