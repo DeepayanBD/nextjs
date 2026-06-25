@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/projects/qurbani',
   },
   openGraph: {
-    title: "Qurbani – Project – Deepayan Foundation",
+    title: "Qurbani – Projects – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/qurbani",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Qurbani – Project – Deepayan Foundation",
+    title: "Qurbani – Projects – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

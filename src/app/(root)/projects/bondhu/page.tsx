@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/projects/bondhu',
   },
   openGraph: {
-    title: "Bondhu – Project – Deepayan Foundation",
+    title: "Bondhu – Projects – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/bondhu",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Bondhu – Project – Deepayan Foundation",
+    title: "Bondhu – Projects – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

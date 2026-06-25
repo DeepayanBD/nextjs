@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/projects/clean-water-and-sanitation',
   },
   openGraph: {
-    title: "Clean Water And Sanitation – Project – Deepayan Foundation",
+    title: "Clean Water And Sanitation – Projects – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/clean-water-and-sanitation",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Clean Water And Sanitation – Project – Deepayan Foundation",
+    title: "Clean Water And Sanitation – Projects – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/courses/internship',
   },
   openGraph: {
-    title: "Internship – Course – Deepayan Foundation",
+    title: "Internship – Courses – Deepayan Foundation",
     url: "https://www.deepayan.org/course/internship",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Internship – Course – Deepayan Foundation",
+    title: "Internship – Courses – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

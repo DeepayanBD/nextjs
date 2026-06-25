@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         canonical: '/projects/food-distribution',
     },
     openGraph: {
-        title: "Food Distribution – Project – Deepayan Foundation",
+        title: "Food Distribution – Projects – Deepayan Foundation",
         url: "https://www.deepayan.org/projects/food-distribution",
         images: [
             {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         ],
     },
     twitter: {
-        title: "Food Distribution – Project – Deepayan Foundation",
+        title: "Food Distribution – Projects – Deepayan Foundation",
         card: "summary_large_image",
         images: [deepRec.src],
     },

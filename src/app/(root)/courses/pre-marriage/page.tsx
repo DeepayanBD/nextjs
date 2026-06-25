@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/courses/pre-marriage',
   },
   openGraph: {
-    title: "Pre Marraige – Course – Deepayan Foundation",
+    title: "Pre Marraige – Courses – Deepayan Foundation",
     url: "https://www.deepayan.org/course/pre-marriage",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Pre Marraige – Course – Deepayan Foundation",
+    title: "Pre Marraige – Courses – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

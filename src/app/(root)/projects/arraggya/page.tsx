@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/projects/arraggya',
   },
   openGraph: {
-    title: "Arraggya – Project – Deepayan Foundation",
+    title: "Arraggya – Projects – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/arraggya",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Arraggya – Project – Deepayan Foundation",
+    title: "Arraggya – Projects – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/projects/self-employment',
   },
   openGraph: {
-    title: "Self Employment – Project – Deepayan Foundation",
+    title: "Self Employment – Projects – Deepayan Foundation",
     url: "https://www.deepayan.org/projects/self-employment",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Self Employment – Project – Deepayan Foundation",
+    title: "Self Employment – Projects – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },

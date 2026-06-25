@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: '/courses/smart-parenting',
   },
   openGraph: {
-    title: "Smart Parenting – Course – Deepayan Foundation",
+    title: "Smart Parenting – Courses – Deepayan Foundation",
     url: "https://www.deepayan.org/course/smart-parnting",
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Smart Parenting – Course – Deepayan Foundation",
+    title: "Smart Parenting – Courses – Deepayan Foundation",
     card: "summary_large_image",
     images: [deepRec.src],
   },
