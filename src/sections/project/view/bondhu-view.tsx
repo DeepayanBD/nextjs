@@ -10,7 +10,7 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { bondhuImages } from '../bondhu';
 
-export function ArraggyaView() {
+export function BondhuView() {
     const { t } = useTranslate('project/bondhu');
 
     return (
