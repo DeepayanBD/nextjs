@@ -8,7 +8,7 @@ import { useTranslate } from 'src/locales';
 
 import { CommonView } from 'src/sections/components/common-view';
 
-import { foodImages } from '../food-distribution';
+import { cleanWaterSanitationImages } from '../clean-water-sanitation';
 
 export function CleanWaterSanitationView() {
     const { t } = useTranslate('project/clean-water-sanitation');
@@ -19,7 +19,7 @@ export function CleanWaterSanitationView() {
             sectionDescription={t('description')}
 
             slotProps={{
-                imageGrid: { images: foodImages },
+                imageGrid: { images: cleanWaterSanitationImages },
                 breadcrumbs: {
                     heading: t('title'),
                     links: [

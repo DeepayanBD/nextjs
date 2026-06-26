@@ -8,7 +8,7 @@ import { useTranslate } from 'src/locales';
 
 import { CommonView } from 'src/sections/components/common-view';
 
-import { arraggyaImages } from '../arraggya';
+import { arayannaImages } from '../arayanna';
 
 export function ArayannaView() {
   const { t } = useTranslate('project/arayanna');
@@ -19,7 +19,7 @@ export function ArayannaView() {
       sectionDescription={t('description')}
 
       slotProps={{
-        imageGrid: { images: arraggyaImages },
+        imageGrid: { images: arayannaImages },
         breadcrumbs: {
           heading: t('title'),
           links: [

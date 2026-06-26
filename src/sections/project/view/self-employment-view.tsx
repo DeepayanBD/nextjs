@@ -8,7 +8,8 @@ import { useTranslate } from 'src/locales';
 
 import { CommonView } from 'src/sections/components/common-view';
 
-import { arraggyaImages } from '../arraggya';
+import { selfEmploymentImages } from '../self-employment';
+
 
 export function SelfEmploymentView() {
   const { t } = useTranslate('project/self-employment');
@@ -19,7 +20,7 @@ export function SelfEmploymentView() {
       sectionDescription={t('description')}
 
       slotProps={{
-        imageGrid: { images: arraggyaImages },
+        imageGrid: { images: selfEmploymentImages },
         breadcrumbs: {
           heading: t('title'),
           links: [

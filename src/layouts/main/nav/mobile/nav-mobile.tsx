@@ -8,6 +8,7 @@ import { paths } from 'src/routes/paths';
 import { usePathname } from 'src/routes/hooks';
 
 import { useTranslate } from 'src/locales';
+import { banglaFont } from 'src/theme/core';
 
 import { Logo } from 'src/components/logo';
 import { NavUl } from 'src/components/nav-section';
@@ -76,6 +77,7 @@ export function NavMobile({ data, open, onClose, slots, sx }: NavMobileProps) {
             size='large'
             variant="contained"
             color="error"
+            sx={{ fontFamily: banglaFont }}
             href={paths.donate}
           >
             {t('donate')}
