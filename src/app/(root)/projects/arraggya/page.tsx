@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Arraggya – Projects – Deepayan Foundation',
+    description:
+      'Deepayan is working to ensure healthcare for all through trained health workers, compassionate doctors, and the future Deepayan Aroggya Clinic, bringing hope and free medical care to underprivileged communities.',
     url: 'https://www.deepayan.org/projects/arraggya',
     images: [
       {
@@ -24,6 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'Arraggya – Projects – Deepayan Foundation',
+    description:
+      'Deepayan is working to ensure healthcare for all through trained health workers, compassionate doctors, and the future Deepayan Aroggya Clinic, bringing hope and free medical care to underprivileged communities.',
     card: 'summary_large_image',
     images: [deepRec.src],
   },

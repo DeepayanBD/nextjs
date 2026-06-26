@@ -10,18 +10,18 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { foodImages } from '../food-distribution';
 
-export function FoodView() {
-    const { t } = useTranslate('project');
+export function FoodDistributionView() {
+    const { t } = useTranslate('project/food-distribution');
 
     return (
         <CommonView
             sideImage={{ src: sideImage, alt: "Food Distribution" }}
-            sectionDescription={t('foodDescription')}
+            sectionDescription={t('description')}
 
             slotProps={{
                 imageGrid: { images: foodImages },
                 breadcrumbs: {
-                    heading: t('foodTitle'),
+                    heading: t('title'),
                     links: [
                         {
                             name: 'Home',

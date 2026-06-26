@@ -1,6 +1,6 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/projects/arraggya/side-image.jpeg';
+import sideImage from '@/public/assets/uploads/projects/arayanna/side-image.jpg';
 
 import { paths } from 'src/routes/paths';
 
@@ -10,12 +10,12 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { arraggyaImages } from '../arraggya';
 
-export function ArraggyaView() {
-  const { t } = useTranslate('project/arraggya');
+export function ArayannaView() {
+  const { t } = useTranslate('project/arayanna');
 
   return (
     <CommonView
-      sideImage={{ src: sideImage, alt: "Arraggya" }}
+      sideImage={{ src: sideImage, alt: "Arayanna" }}
       sectionDescription={t('description')}
 
       slotProps={{
@@ -31,7 +31,7 @@ export function ArraggyaView() {
               name: 'Projects',
               href: paths.projects.root,
             },
-            { name: 'Arraggya' },
+            { name: 'Arayanna' },
           ]
         },
       }}

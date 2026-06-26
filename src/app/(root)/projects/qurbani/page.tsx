@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Qurbani – Projects – Deepayan Foundation',
+    description:
+      "Deepayan's Qurbani initiative provides sacrificial meat to underprivileged families, spreading compassion, dignity, and hope across Bangladesh.",
     url: 'https://www.deepayan.org/projects/qurbani',
     images: [
       {
@@ -24,6 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: 'Qurbani – Projects – Deepayan Foundation',
+    description:
+      "Deepayan's Qurbani initiative provides sacrificial meat to underprivileged families, spreading compassion, dignity, and hope across Bangladesh.",
     card: 'summary_large_image',
     images: [deepRec.src],
   },

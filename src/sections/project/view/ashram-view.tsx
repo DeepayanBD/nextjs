@@ -10,12 +10,12 @@ import { CommonView } from 'src/sections/components/common-view';
 
 import { arraggyaImages } from '../arraggya';
 
-export function ArraggyaView() {
-  const { t } = useTranslate('project/arraggya');
+export function AshramView() {
+  const { t } = useTranslate('project/ashram');
 
   return (
     <CommonView
-      sideImage={{ src: sideImage, alt: "Arraggya" }}
+      sideImage={{ src: sideImage, alt: "Ashram" }}
       sectionDescription={t('description')}
 
       slotProps={{
@@ -31,7 +31,7 @@ export function ArraggyaView() {
               name: 'Projects',
               href: paths.projects.root,
             },
-            { name: 'Arraggya' },
+            { name: 'Ashram' },
           ]
         },
       }}

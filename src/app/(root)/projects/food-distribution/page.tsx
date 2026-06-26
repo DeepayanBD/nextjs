@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 import deepRec from '@/public/assets/logo/deepayan-logo-rectangular.png';
 
-import { FoodView } from 'src/sections/project/view/food-view';
+import { FoodDistributionView } from 'src/sections/project/view/food-distribution-view';
 
 export const metadata: Metadata = {
     title: 'Food Distribution',
@@ -13,6 +13,8 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: 'Food Distribution – Projects – Deepayan Foundation',
+        description:
+            "Deepayan Foundation's Food Distribution program fights hunger by providing nutritious meals and essential food supplies to vulnerable communities across Bangladesh.",
         url: 'https://www.deepayan.org/projects/food-distribution',
         images: [
             {
@@ -24,11 +26,13 @@ export const metadata: Metadata = {
     },
     twitter: {
         title: 'Food Distribution – Projects – Deepayan Foundation',
+        description:
+            "Deepayan Foundation's Food Distribution program fights hunger by providing nutritious meals and essential food supplies to vulnerable communities across Bangladesh.",
         card: 'summary_large_image',
         images: [deepRec.src],
     },
 };
 
 export default function FoodPage() {
-    return <FoodView />;
+    return <FoodDistributionView />;
 }

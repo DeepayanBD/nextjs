@@ -11,17 +11,17 @@ import { CommonView } from 'src/sections/components/common-view';
 import { qurbaniImages } from '../qurbani';
 
 export function QurbaniView() {
-  const { t } = useTranslate('project');
+  const { t } = useTranslate('project/qurbani');
 
   return (
     <CommonView
       sideImage={{ src: sideImage, alt: "Qurbani" }}
-      sectionDescription={t('qurbaniDescription')}
+      sectionDescription={t('description')}
 
       slotProps={{
         imageGrid: { images: qurbaniImages },
         breadcrumbs: {
-          heading: t('qurbaniTitle'),
+          heading: t('title'),
           links: [
             {
               name: 'Home',

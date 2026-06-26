@@ -26,8 +26,8 @@ export const usePageLinks = () => {
           path: paths.projects.arragya,
         },
         {
-          title: t('projects.asram'),
-          path: paths.projects.asram,
+          title: t('projects.ashram'),
+          path: paths.projects.ashram,
         },
         {
           title: t('projects.bondhu'),

@@ -34,7 +34,7 @@ export const paths = {
     root: ROOTS.PROJECTS,
     arayanna: `${ROOTS.PROJECTS}/arayanna`,
     arragya: `${ROOTS.PROJECTS}/arraggya`,
-    asram: `${ROOTS.PROJECTS}/asram`,
+    ashram: `${ROOTS.PROJECTS}/ashram`,
     bondhu: `${ROOTS.PROJECTS}/bondhu`,
     cleanWaterAndSanitation: `${ROOTS.PROJECTS}/clean-water-and-sanitation`,
     educationForABetterTomorrow: `${ROOTS.PROJECTS}/education-for-a-better-tomorrow`,

@@ -45,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.5,
         },
         {
-            url: 'https://www.deepayan.org/projects/asram',
+            url: 'https://www.deepayan.org/projects/ashram',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.5,
