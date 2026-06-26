@@ -1,6 +1,6 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/projects/arayanna/side-image.jpg';
+import sideImage from '@/public/assets/uploads/projects/arayanna/side-image.jpeg';
 
 import { paths } from 'src/routes/paths';
 

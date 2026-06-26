@@ -65,7 +65,7 @@ export function OurGoal() {
             <Stack spacing={4}>
               <Typography
                 variant="h4"
-                sx={{ fontWeight: 'bold', fontFamily: banglaFont, color: 'error.dark' }}
+                sx={{ fontWeight: 'bold', fontFamily: banglaFont, color: 'error.main' }}
               >
                 {t('goalDescription')}
               </Typography>

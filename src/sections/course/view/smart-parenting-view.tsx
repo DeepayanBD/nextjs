@@ -1,6 +1,6 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/projects/arraggya/side-image.jpeg';
+import sideImage from '@/public/assets/uploads/courses/smart-parenting/side-image.jpeg';
 
 import { paths } from 'src/routes/paths';
 

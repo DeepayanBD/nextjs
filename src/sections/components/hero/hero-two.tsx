@@ -56,7 +56,7 @@ export function HeroTwo() {
             my: 4,
             border: 0,
             ...bgGradient({
-              color: `90deg, transparent 0%, ${theme.vars.palette.primary.main} 50%, transparent 100%`,
+              color: `90deg, transparent 0%, ${theme.vars.palette.error.main} 50%, transparent 100%`,
             }),
             [stylesMode.dark]: {
               ...bgGradient({
