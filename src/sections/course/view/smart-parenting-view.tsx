@@ -1,7 +1,40 @@
-export function SmartParenting() {
+'use client';
+
+import sideImage from '@/public/assets/uploads/projects/arraggya/side-image.jpeg';
+
+import { paths } from 'src/routes/paths';
+
+import { useTranslate } from 'src/locales';
+
+import { CommonView } from 'src/sections/components/common-view';
+
+import { smartParentingImages } from '../smart-parenting';
+
+export function SmartParentingView() {
+  const { t } = useTranslate('course/smart-parenting');
+
   return (
-    <div className="py-32 flex justify-center items-center">
-      SmartParenting
-    </div>
+    <CommonView
+      sideImage={{ src: sideImage, alt: "Smart Parenting" }}
+      sectionDescription={t('description')}
+
+      slotProps={{
+        imageGrid: { images: smartParentingImages },
+        breadcrumbs: {
+          heading: t('title'),
+          links: [
+            {
+              name: 'Home',
+              href: '/',
+            },
+            {
+              name: 'Courses',
+              href: paths.courses.root,
+            },
+            { name: 'Smart Parenting' },
+          ]
+        },
+      }}
+    />
   );
 }
