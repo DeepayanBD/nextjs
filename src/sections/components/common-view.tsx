@@ -1,6 +1,8 @@
 'use client';
 
 import type { StaticImageData } from 'next/image';
+import type { SectionTitleProps } from 'src/sections/components/section-title';
+import type { CustomBreadcrumbsProps } from 'src/components/custom-breadcrumbs';
 
 import Image from 'next/image';
 
@@ -9,22 +11,40 @@ import { Box, Grid, Stack, Container } from '@mui/material';
 import { banglaFont } from 'src/theme/core';
 
 import { Markdown } from 'src/components/markdown';
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
 import { ImageGrid } from 'src/sections/components/image-grid';
 import { GetDonate } from 'src/sections/components/get-donate';
 import { DonateButton } from 'src/sections/components/donate-button';
 import { SectionTitle } from 'src/sections/components/section-title';
+import { ComponentHero } from 'src/sections/components/component-hero';
 
 type CommnProps = {
-    images: StaticImageData[] | string[];
-    sectiontitle: string;
     sectionDescription: string;
-    sideImage: StaticImageData | string;
+    sideImage: { src: StaticImageData | string, alt: string };
+
+    slotProps?: {
+        imageGrid?: { images: StaticImageData[] | string[]; }
+        breadcrumbs?: CustomBreadcrumbsProps;
+        sectiontitle?: SectionTitleProps;
+    };
 };
 
-export function CommonView({ images, sectionDescription, sideImage, sectiontitle }: CommnProps) {
+export function CommonView({
+    sectionDescription,
+    sideImage,
+    slotProps
+}: CommnProps) {
     return (
         <>
+            {!!slotProps?.breadcrumbs && (
+                <ComponentHero>
+                    <CustomBreadcrumbs
+                        {...slotProps.breadcrumbs}
+                    />
+                </ComponentHero>
+            )}
+
             <Container
                 sx={{
                     minHeight: '100%',
@@ -38,7 +58,7 @@ export function CommonView({ images, sectionDescription, sideImage, sectiontitle
                 }}
             >
                 <Box sx={{ width: '100%', position: 'relative' }}>
-                    <SectionTitle title={sectiontitle} />
+                    {!!slotProps?.sectiontitle && <SectionTitle {...slotProps.sectiontitle} />}
 
                     <Grid
                         container
@@ -69,8 +89,8 @@ export function CommonView({ images, sectionDescription, sideImage, sectiontitle
                                 }}
                             >
                                 <Image
-                                    src={sideImage}
-                                    alt="Project Arraggya"
+                                    src={sideImage.src}
+                                    alt={sideImage.alt}
                                     priority
                                     placeholder="blur"
                                     style={{
@@ -84,7 +104,7 @@ export function CommonView({ images, sectionDescription, sideImage, sectiontitle
                 </Box>
             </Container>
 
-            <ImageGrid images={images} />
+            {!!slotProps?.imageGrid && <ImageGrid {...slotProps?.imageGrid} />}
 
             <GetDonate />
         </>

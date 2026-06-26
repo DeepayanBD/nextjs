@@ -1,28 +1,30 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
+import deepRec from '@/public/assets/logo/deepayan-logo-rectangular.png';
 
-import { ArraggyaView } from "src/sections/project/view/arraggya-view";
+import { ArraggyaView } from 'src/sections/project/view/arraggya-view';
 
 export const metadata: Metadata = {
-  title: "Arraggya",
+  title: 'Arraggya',
+  description:
+    'Deepayan is working to ensure healthcare for all through trained health workers, compassionate doctors, and the future Deepayan Aroggya Clinic, bringing hope and free medical care to underprivileged communities.',
   alternates: {
     canonical: '/projects/arraggya',
   },
   openGraph: {
-    title: "Arraggya – Projects – Deepayan Foundation",
-    url: "https://www.deepayan.org/projects/arraggya",
+    title: 'Arraggya – Projects – Deepayan Foundation',
+    url: 'https://www.deepayan.org/projects/arraggya',
     images: [
       {
         url: deepRec.src,
         height: 301,
-        alt: "Deepayan Foundation Logo",
+        alt: 'Deepayan Foundation Logo',
       },
     ],
   },
   twitter: {
-    title: "Arraggya – Projects – Deepayan Foundation",
-    card: "summary_large_image",
+    title: 'Arraggya – Projects – Deepayan Foundation',
+    card: 'summary_large_image',
     images: [deepRec.src],
   },
 };

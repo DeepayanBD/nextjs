@@ -7,6 +7,8 @@ import Button from '@mui/material/Button';
 import { paths } from 'src/routes/paths';
 import { usePathname } from 'src/routes/hooks';
 
+import { useTranslate } from 'src/locales';
+
 import { Logo } from 'src/components/logo';
 import { NavUl } from 'src/components/nav-section';
 import { Scrollbar } from 'src/components/scrollbar';
@@ -28,6 +30,8 @@ export type NavMobileProps = NavMainProps & {
 
 export function NavMobile({ data, open, onClose, slots, sx }: NavMobileProps) {
   const pathname = usePathname();
+
+  const { t } = useTranslate();
 
   useEffect(() => {
     if (open) {
@@ -71,10 +75,10 @@ export function NavMobile({ data, open, onClose, slots, sx }: NavMobileProps) {
             fullWidth
             size='large'
             variant="contained"
-            color="primary"
+            color="error"
             href={paths.donate}
           >
-            Donation
+            {t('donate')}
           </Button>
         </Box>
       )}

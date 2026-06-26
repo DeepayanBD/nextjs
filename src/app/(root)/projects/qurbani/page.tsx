@@ -1,28 +1,30 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
+import deepRec from '@/public/assets/logo/deepayan-logo-rectangular.png';
 
-import { QurbaniView } from "src/sections/project/view/qurbani-view";
+import { QurbaniView } from 'src/sections/project/view/qurbani-view';
 
 export const metadata: Metadata = {
-  title: "Qurbani",
+  title: 'Qurbani',
+  description:
+    "Deepayan's Qurbani initiative provides sacrificial meat to underprivileged families, spreading compassion, dignity, and hope across Bangladesh.",
   alternates: {
     canonical: '/projects/qurbani',
   },
   openGraph: {
-    title: "Qurbani – Projects – Deepayan Foundation",
-    url: "https://www.deepayan.org/projects/qurbani",
+    title: 'Qurbani – Projects – Deepayan Foundation',
+    url: 'https://www.deepayan.org/projects/qurbani',
     images: [
       {
         url: deepRec.src,
         height: 301,
-        alt: "Deepayan Foundation Logo",
+        alt: 'Deepayan Foundation Logo',
       },
     ],
   },
   twitter: {
-    title: "Qurbani – Projects – Deepayan Foundation",
-    card: "summary_large_image",
+    title: 'Qurbani – Projects – Deepayan Foundation',
+    card: 'summary_large_image',
     images: [deepRec.src],
   },
 };

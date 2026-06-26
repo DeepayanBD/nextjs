@@ -17,7 +17,7 @@ export function DonateButton({ sx, ...other }: ButtonProps) {
       data-slot="donate"
       href={paths.donate}
       LinkComponent={RouterLink}
-      color="primary"
+      color="error"
       variant="contained"
       sx={{ px: 2, fontFamily: banglaFont, ...sx }}
       {...other}

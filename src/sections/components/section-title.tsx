@@ -5,13 +5,12 @@ import { Divider, Typography } from "@mui/material";
 import { banglaFont } from "src/theme/core";
 import { bgGradient, stylesMode, } from "src/theme/styles";
 
-export function SectionTitle({
-  title,
-  className,
-}: {
+export type SectionTitleProps = {
   title: string;
   className?: string;
-}) {
+}
+
+export function SectionTitle({ title, className }: SectionTitleProps) {
   return (
     <div style={{ textAlign: 'center' }}>
       <Typography
@@ -34,7 +33,7 @@ export function SectionTitle({
           border: 0,
 
           ...bgGradient({
-            color: `90deg, transparent 0%, ${theme.vars.palette.primary.main} 50%, transparent 100%`,
+            color: `90deg, transparent 0%, ${theme.vars.palette.error.main} 50%, transparent 100%`,
           }),
           [stylesMode.dark]: {
             ...bgGradient({

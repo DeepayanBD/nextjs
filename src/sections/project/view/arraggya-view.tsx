@@ -1,6 +1,8 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/arraggya/side-image.jpeg';
+import sideImage from '@/public/assets/uploads/projects/arraggya/side-image.jpeg';
+
+import { paths } from 'src/routes/paths';
 
 import { useTranslate } from 'src/locales';
 
@@ -13,10 +15,27 @@ export function ArraggyaView() {
 
   return (
     <CommonView
-      images={arraggyaImages}
+      sideImage={{ src: sideImage, alt: "Arraggya" }}
       sectionDescription={t('arraggyaDescription')}
-      sideImage={sideImage}
-      sectiontitle={t('arraggyaTitle')}
+
+      slotProps={{
+        imageGrid: { images: arraggyaImages },
+        breadcrumbs: {
+          heading: t('arraggyaTitle'),
+          links: [
+            {
+              name: 'Home',
+              href: '/',
+            },
+            {
+              name: 'Projects',
+              href: paths.projects.root,
+            },
+            { name: 'Arraggya' },
+          ]
+        },
+      }}
     />
   );
 }
+

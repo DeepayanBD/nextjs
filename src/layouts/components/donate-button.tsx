@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import Button from '@mui/material/Button';
 
@@ -12,12 +12,13 @@ import { banglaFont } from 'src/theme/core';
 
 export function DonateButton() {
     const { t } = useTranslate();
+
     return (
         <Button
             href={paths.donate}
             LinkComponent={RouterLink}
-            color='primary'
-            variant='contained'
+            color="error"
+            variant="contained"
             sx={{ px: 2, fontFamily: banglaFont }}
         >
             {t('donate')}
