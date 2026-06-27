@@ -36,7 +36,7 @@ export function HomeHero() {
           width: '100%',
           ...bgGradient({
             color: `to bottom left, ${varAlpha(theme.vars.palette.background.defaultChannel, 0.8)} 20%, ${varAlpha(theme.vars.palette.success.darkChannel, 0.8)} 50%, ${varAlpha(theme.vars.palette.primary.darkChannel, 0.9)}`,
-            imgUrl: `/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg`,
+            imgUrl: `/assets/uploads/community-food-distribution-dhaka-bangladesh.webp`,
           }),
         })}
       />

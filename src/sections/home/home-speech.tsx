@@ -30,7 +30,7 @@ export function HomeSpeech() {
           width: '100%',
           ...bgGradient({
             color: `to top right, rgba(59, 130, 246, 0.75) 10%, rgba(139, 92, 246, 0.75) 30%, rgba(236, 72, 153, 0.75) 90%`,
-            imgUrl: `/assets/uploads/home-banner-04.jpg`,
+            imgUrl: `/assets/uploads/community-unity-and-support.webp`,
           }),
         }}
       />

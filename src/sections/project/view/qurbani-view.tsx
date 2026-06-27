@@ -1,6 +1,6 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/projects/qurbani/side-image.jpg';
+import sideImage from '@/public/assets/uploads/projects/qurbani/side-image.webp';
 
 import { paths } from 'src/routes/paths';
 

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import sideImage from '@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-11.19.24-AM-1024x768.jpeg';
+import sideImage from '@/public/assets/uploads/healthy-beginnings-newborn-care.webp';
 
 import { Box, Grid, Container, Typography } from '@mui/material';
 
@@ -78,11 +78,11 @@ export function HomeVision() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              aspectRatio: '137/103',
+              aspectRatio: '4/3',
             }}
           >
             <Image
-              style={{ borderRadius: '8px', aspectRatio: '137/103' }} // Add border-radius inline for MUI styling
+              style={{ borderRadius: '8px', aspectRatio: '4/3' }} // Add border-radius inline for MUI styling
               height={563}
               width={750}
               src={sideImage}

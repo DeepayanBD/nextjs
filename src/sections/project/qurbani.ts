@@ -1,11 +1,11 @@
-import imageQurbaniSix from '@/public/assets/uploads/projects/qurbani/img-6.jpg';
-import imageQurbaniOne from '@/public/assets/uploads/projects/qurbani/img-1.jpeg';
-import imageQurbaniTwo from '@/public/assets/uploads/projects/qurbani/img-2.jpeg';
-import imageQurbaniFour from '@/public/assets/uploads/projects/qurbani/img-4.jpg';
-import imageQurbaniFive from '@/public/assets/uploads/projects/qurbani/img-5.jpg';
-import imageQurbaniSeven from '@/public/assets/uploads/projects/qurbani/img-7.jpg';
-import imageQurbaniEight from '@/public/assets/uploads/projects/qurbani/img-8.jpg';
-import imageQurbaniThree from '@/public/assets/uploads/projects/qurbani/img-3.jpeg';
+import imageQurbaniSix from '@/public/assets/uploads/projects/qurbani/img-6.webp';
+import imageQurbaniOne from '@/public/assets/uploads/projects/qurbani/img-1.webp';
+import imageQurbaniTwo from '@/public/assets/uploads/projects/qurbani/img-2.webp';
+import imageQurbaniFour from '@/public/assets/uploads/projects/qurbani/img-4.webp';
+import imageQurbaniFive from '@/public/assets/uploads/projects/qurbani/img-5.webp';
+import imageQurbaniSeven from '@/public/assets/uploads/projects/qurbani/img-7.webp';
+import imageQurbaniEight from '@/public/assets/uploads/projects/qurbani/img-8.webp';
+import imageQurbaniThree from '@/public/assets/uploads/projects/qurbani/img-3.webp';
 
 export const qurbaniImages = [
     imageQurbaniOne,

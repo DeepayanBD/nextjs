@@ -1,9 +1,9 @@
-import imageWorkOne from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.31.06-AM.jpeg';
-import imageWorkTwo from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.26.32-AM.jpeg';
-import imageWorkSix from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.47.09-AM.jpeg';
-import imageWorkFour from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.19.24-AM.jpeg';
-import imageWorkFive from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-11.46.37-AM.jpeg';
-import imageWorkThree from '@/public/assets/uploads/workpart/WhatsApp-Image-2022-03-29-at-10.55.05-AM.jpeg';
+import imageWorkThree from '@/public/assets/uploads/workpart/deepayan-mobile-food-relief.webp';
+import imageWorkFour from '@/public/assets/uploads/workpart/deepayan-newborn-care-support.webp';
+import imageWorkFive from '@/public/assets/uploads/workpart/deepayan-flood-relief-by-boat.webp';
+import imageWorkOne from '@/public/assets/uploads/workpart/deepayan-food-support-for-children.webp';
+import imageWorkTwo from '@/public/assets/uploads/workpart/deepayan-community-meal-distribution.webp';
+import imageWorkSix from '@/public/assets/uploads/workpart/deepayan-emergency-relief-distribution.webp';
 
 export const imageList = [
     imageWorkOne,

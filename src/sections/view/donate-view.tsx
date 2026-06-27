@@ -55,7 +55,7 @@ export function DonateView() {
           width: '100%',
           opacity: 0.55,
           ...bgGradient({
-            imgUrl: '/assets/uploads/home-banner-04.jpg',
+            imgUrl: '/assets/uploads/community-unity-and-support.webp',
             color: `to top right, rgba(0, 121, 184, 0.1), rgba(128, 0, 128, 0.3), rgba(255, 20, 147, 0.5)`,
           }),
         }}

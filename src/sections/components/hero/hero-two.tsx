@@ -31,7 +31,7 @@ export function HeroTwo() {
           width: '100%',
           ...bgGradient({
             color: `to right, rgba(236, 72, 153, 0.8), rgba(126, 34, 206, 0.8), rgba(59, 130, 246, 0.8)`,
-            imgUrl: `/assets/uploads/WhatsApp-Image-2022-03-29-at-11.04.46-AM.jpeg`,
+            imgUrl: `/assets/uploads/community-food-distribution-dhaka-bangladesh.webp`,
           }),
         }}
       />

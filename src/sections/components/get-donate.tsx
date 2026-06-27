@@ -1,6 +1,6 @@
 'use client';
 
-import bgImage from '@/public/assets/uploads/WhatsApp-Image-2022-03-29-at-10.26.32-AM.webp';
+import bgImage from '@/public/assets/uploads/community-food-relief-for-families.webp';
 
 import { Box, Button, styled, Typography } from '@mui/material';
 
