@@ -1,11 +1,11 @@
-import imageSmartParentingOne from '@/public/assets/uploads/courses/smart-parenting/img-1.jpeg';
-import imageSmartParentingTwo from '@/public/assets/uploads/courses/smart-parenting/img-2.jpeg';
-import imageSmartParentingSix from '@/public/assets/uploads/courses/smart-parenting/img-6.jpeg';
-import imageSmartParentingFour from '@/public/assets/uploads/courses/smart-parenting/img-4.jpeg';
-import imageSmartParentingFive from '@/public/assets/uploads/courses/smart-parenting/img-5.jpeg';
-import imageSmartParentingSeven from '@/public/assets/uploads/courses/smart-parenting/img-7.jpeg';
-import imageSmartParentingEight from '@/public/assets/uploads/courses/smart-parenting/img-8.jpeg';
-import imageSmartParentingThree from '@/public/assets/uploads/courses/smart-parenting/img-3.jpeg';
+import imageSmartParentingOne from '@/public/assets/uploads/courses/smart-parenting/img-1.webp';
+import imageSmartParentingTwo from '@/public/assets/uploads/courses/smart-parenting/img-2.webp';
+import imageSmartParentingSix from '@/public/assets/uploads/courses/smart-parenting/img-6.webp';
+import imageSmartParentingFour from '@/public/assets/uploads/courses/smart-parenting/img-4.webp';
+import imageSmartParentingFive from '@/public/assets/uploads/courses/smart-parenting/img-5.webp';
+import imageSmartParentingSeven from '@/public/assets/uploads/courses/smart-parenting/img-7.webp';
+import imageSmartParentingEight from '@/public/assets/uploads/courses/smart-parenting/img-8.webp';
+import imageSmartParentingThree from '@/public/assets/uploads/courses/smart-parenting/img-3.webp';
 
 export const smartParentingImages = [
     imageSmartParentingOne,

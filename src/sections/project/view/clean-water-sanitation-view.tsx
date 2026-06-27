@@ -1,6 +1,6 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/projects/clean-water-and-sanitation/side-image.jpeg';
+import sideImage from '@/public/assets/uploads/projects/clean-water-and-sanitation/side-image.webp';
 
 import { paths } from 'src/routes/paths';
 

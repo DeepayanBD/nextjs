@@ -1,6 +1,6 @@
 'use client';
 
-import sideImage from '@/public/assets/uploads/projects/education-for-a-better-tomorrow/side-image.jpeg';
+import sideImage from '@/public/assets/uploads/projects/education-for-a-better-tomorrow/side-image.webp';
 
 import { paths } from 'src/routes/paths';
 
