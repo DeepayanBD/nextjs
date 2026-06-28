@@ -9,10 +9,11 @@ import { RouterLink } from 'src/routes/components';
 
 import { useTranslate } from 'src/locales';
 import { banglaFont } from 'src/theme/core';
-import { varAlpha, bgGradient } from 'src/theme/styles';
+import { varAlpha } from 'src/theme/styles';
 
 export function HomeHero() {
   const { t } = useTranslate('donation');
+
   return (
     <Box
       sx={{
@@ -26,22 +27,34 @@ export function HomeHero() {
         overflow: 'hidden',
       }}
     >
-      <Box
-        sx={(theme) => ({
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          // opacity: 0.5,
-          height: '100%',
-          width: '100%',
-          ...bgGradient({
-            color: `to bottom left, ${varAlpha(theme.vars.palette.background.defaultChannel, 0.8)} 20%, ${varAlpha(theme.vars.palette.success.darkChannel, 0.8)} 50%, ${varAlpha(theme.vars.palette.primary.darkChannel, 0.9)}`,
-            imgUrl: `/assets/uploads/community-food-distribution-dhaka-bangladesh.webp`,
-          }),
-        })}
-      />
 
-      <Container>
+      <Box sx={{ position: 'absolute', top: 0, left: 0, height: '100%', width: '100%', zIndex: 0 }}>
+        <Image
+          src="/assets/uploads/community-food-distribution-dhaka-bangladesh.webp"
+          alt="Community food distribution in Dhaka, Bangladesh"
+          fill
+          priority
+          sizes="100vw"
+          style={{
+            objectFit: 'cover',
+            objectPosition: 'center',
+          }}
+        />
+
+        <Box
+          sx={(theme) => ({
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            height: '100%',
+            width: '100%',
+            zIndex: 1,
+            background: `linear-gradient(to bottom left, ${varAlpha(theme.vars.palette.background.defaultChannel, 0.8)} 20%, ${varAlpha(theme.vars.palette.success.darkChannel, 0.8)} 50%, ${varAlpha(theme.vars.palette.primary.darkChannel, 0.9)})`,
+          })}
+        />
+      </Box>
+
+      <Container sx={{ position: 'relative', zIndex: 2 }}>
         <Grid
           container
           spacing={10}

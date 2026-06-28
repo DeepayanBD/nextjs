@@ -1,26 +1,6 @@
-/** **************************************
-* Fonts: app
-*************************************** */
-@import '@fontsource/hind-siliguri/300.css';
-@import '@fontsource/hind-siliguri/400.css';
-@import '@fontsource/hind-siliguri/500.css';
-@import '@fontsource/hind-siliguri/600.css';
-@import '@fontsource/hind-siliguri/700.css';
-
-@import '@fontsource/public-sans/400.css';
-@import '@fontsource/public-sans/500.css';
-@import '@fontsource/public-sans/600.css';
-@import '@fontsource/public-sans/700.css';
-@import '@fontsource/public-sans/800.css';
-
-@import '@fontsource/lateef/400.css';
-@import '@fontsource/lateef/500.css';
-@import '@fontsource/lateef/600.css';
-@import '@fontsource/lateef/700.css';
-@import '@fontsource/lateef/800.css';
-
 .slider {
-  height: 24rem; /* 96 * 0.25rem = 24rem */
+  height: 24rem;
+  /* 96 * 0.25rem = 24rem */
   position: relative;
   overflow: hidden;
   margin: 0 auto;
@@ -36,6 +16,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-18rem * 5));
   }
@@ -45,6 +26,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-18rem * 5));
   }
@@ -58,15 +40,18 @@
   width: 18rem;
   z-index: 2;
 }
+
 .slider::after {
   right: 0;
   top: 0;
   transform: rotateZ(180deg);
 }
+
 .slider::before {
   left: 0;
   top: 0;
 }
+
 .slider .slide-track {
   -webkit-animation: scroll 40s linear infinite;
   animation: scroll 40s linear infinite;
@@ -74,6 +59,7 @@
   gap: 2rem;
   width: calc(20rem * 10);
 }
+
 .slider .slide {
   height: 24rem;
   width: 19rem;
@@ -86,6 +72,7 @@ html {
   height: 100%;
   -webkit-overflow-scrolling: touch;
 }
+
 body,
 #root,
 #root__layout {
@@ -94,23 +81,28 @@ body,
   min-height: 100%;
   flex-direction: column;
 }
+
 img {
   max-width: 100%;
   vertical-align: middle;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: none;
 }
+
 input[type='number']::-webkit-outer-spin-button {
   margin: 0;
   -webkit-appearance: none;
 }
+
 input[type='number']::-webkit-inner-spin-button {
   margin: 0;
   -webkit-appearance: none;

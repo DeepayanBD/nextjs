@@ -59,10 +59,11 @@ export function ImageGrid({ images }: { images: StaticImageData[] | string[] }) 
                     width={400}
                     height={300}
                     placeholder="blur"
+                    sizes="(max-width: 768px) 384px, 256px"
                     style={{
                       objectFit: 'cover',
-                      width: '100%',
-                      height: '100%',
+                      maxWidth: '100%',
+                      height: 'auto',
                     }}
                   />
                 </Box>

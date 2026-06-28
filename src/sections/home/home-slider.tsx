@@ -31,13 +31,13 @@ export function HomeSlider() {
               <Box
                 key={image.src + index}
                 sx={{
-                  mx: 1, // Equivalent to Tailwind mx-1 (margin-left, margin-right)
+                  mx: 1,
                   height: 384,
                   width: 288,
-                  borderRadius: "16px", // Equivalent to rounded-2xl
+                  borderRadius: 2,
                   border: "2px solid",
-                  borderColor: "primary.main", // Equivalent to border-blue-600
-                  overflow: "hidden", // To ensure the image respects the border radius
+                  borderColor: "primary.main",
+                  overflow: "hidden",
                 }}
               >
                 <Image
@@ -45,12 +45,10 @@ export function HomeSlider() {
                   height={384}
                   width={288}
                   alt={image.src}
-                  quality={100}
-                  loading="lazy"
                   style={{
-                    objectFit: "cover", // Ensures the image fills its container properly
-                    height: "100%", // Ensures the image uses the full height of the container
-                    width: "100%", // Ensures the image uses the full width of the container
+                    objectFit: "cover",
+                    height: "100%",
+                    width: "100%",
                   }}
                 />
               </Box>

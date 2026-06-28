@@ -1,6 +1,39 @@
 import type { TypographyOptions } from '@mui/material/styles/createTypography';
 
-import { setFont, pxToRem, responsiveFontSizes } from '../styles/utils';
+import { Lateef, Barlow, Public_Sans, Hind_Siliguri } from 'next/font/google';
+
+import { pxToRem, responsiveFontSizes } from '../styles/utils';
+
+const publicSans = Public_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-public-sans',
+  display: 'swap',
+});
+
+const hindSiliguri = Hind_Siliguri({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-hind-siliguri',
+  display: 'swap',
+  preload: false
+});
+
+const lateef = Lateef({
+  subsets: ['arabic'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-lateef',
+  display: 'swap',
+  preload: false
+});
+
+const barlow = Barlow({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-barlow',
+  display: 'swap',
+  preload: false
+});
 
 // ----------------------------------------------------------------------
 
@@ -20,15 +53,15 @@ declare module '@mui/material/styles' {
 
 // ----------------------------------------------------------------------
 
-export const defaultFont = 'Public Sans';
+export const defaultFont = publicSans.style.fontFamily;
 
-export const arabicFont = setFont('Lateef');
+export const arabicFont = lateef.style.fontFamily;
 
-export const banglaFont = setFont('Hind Siliguri');
+export const banglaFont = hindSiliguri.style.fontFamily;
 
-export const primaryFont = setFont(defaultFont);
+export const primaryFont = defaultFont;
 
-export const secondaryFont = setFont('Barlow');
+export const secondaryFont = barlow.style.fontFamily;
 
 // ----------------------------------------------------------------------
 

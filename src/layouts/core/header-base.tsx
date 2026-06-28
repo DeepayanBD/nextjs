@@ -96,6 +96,7 @@ export function HeaderBase({
               <MenuButton
                 data-slot="menu-button"
                 onClick={onOpenNav}
+                aria-label="Open navigation menu"
                 sx={{ mr: 1, ml: -1, [theme.breakpoints.up(layoutQuery)]: { display: 'none' } }}
               />
             )}

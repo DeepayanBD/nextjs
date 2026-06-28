@@ -1,10 +1,10 @@
 'use client';
 
-import type {} from '@mui/lab/themeAugmentation';
-import type {} from '@mui/x-tree-view/themeAugmentation';
-import type {} from '@mui/x-data-grid/themeAugmentation';
-import type {} from '@mui/x-date-pickers/themeAugmentation';
-import type {} from '@mui/material/themeCssVarsAugmentation';
+import type { } from '@mui/lab/themeAugmentation';
+import type { } from '@mui/x-tree-view/themeAugmentation';
+import type { } from '@mui/x-data-grid/themeAugmentation';
+import type { } from '@mui/x-date-pickers/themeAugmentation';
+import type { } from '@mui/material/themeCssVarsAugmentation';
 
 import CssBaseline from '@mui/material/CssBaseline';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
@@ -32,7 +32,7 @@ export function ThemeProvider({ children }: Props) {
   const theme = createTheme(currentLang?.systemValue, settings);
 
   return (
-    <AppRouterCacheProvider options={{ key: 'css' }}>
+    <AppRouterCacheProvider options={{ key: 'css', enableCssLayer: true }}>
       <CssVarsProvider
         theme={theme}
         defaultMode={schemeConfig.defaultMode}
