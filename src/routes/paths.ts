@@ -24,6 +24,7 @@ export const paths = {
   // Courses
   courses: {
     root: ROOTS.COURSES,
+    details: (slug: string) => `${ROOTS.COURSES}/${slug}`,
     internship: `${ROOTS.COURSES}/internship`,
     preMarriage: `${ROOTS.COURSES}/pre-marriage`,
     smartParenting: `${ROOTS.COURSES}/smart-parenting`,
@@ -32,6 +33,7 @@ export const paths = {
   // Projects
   projects: {
     root: ROOTS.PROJECTS,
+    details: (slug: string) => `${ROOTS.PROJECTS}/${slug}`,
     arayanna: `${ROOTS.PROJECTS}/arayanna`,
     arragya: `${ROOTS.PROJECTS}/arraggya`,
     ashram: `${ROOTS.PROJECTS}/ashram`,

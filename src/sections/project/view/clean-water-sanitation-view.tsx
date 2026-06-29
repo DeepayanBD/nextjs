@@ -11,7 +11,7 @@ import { CommonView } from 'src/sections/components/common-view';
 import { cleanWaterSanitationImages } from '../clean-water-sanitation';
 
 export function CleanWaterSanitationView() {
-    const { t } = useTranslate('project/clean-water-sanitation');
+    const { t } = useTranslate('project/clean-water-and-sanitation');
 
     return (
         <CommonView
