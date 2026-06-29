@@ -5,13 +5,13 @@ import deepRec from "@/public/assets/logo/deepayan-logo-rectangular.png";
 import { ProjectView } from "src/sections/project/view/project-view";
 
 export const metadata: Metadata = {
-    description: "Deepayan Foundation's Aranyana program promotes environmental sustainability through tree plantation, conservation, and climate awareness initiatives across Bangladesh.",
+    description: "Explore Deepayan Foundation's community projects focused on healthcare, education, food security, clean water, livelihoods, environmental conservation, and humanitarian support across Bangladesh.",
     alternates: {
         canonical: '/projects',
     },
     openGraph: {
         title: "Projects – Deepayan Foundation",
-        description: "Deepayan Foundation's Aranyana program promotes environmental sustainability through tree plantation, conservation, and climate awareness initiatives across Bangladesh.",
+        description: "Explore Deepayan Foundation's community projects focused on healthcare, education, food security, clean water, livelihoods, environmental conservation, and humanitarian support across Bangladesh.",
         url: "https://www.deepayan.org/projects",
         images: [
             {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         title: "Projects – Deepayan Foundation",
-        description: "Deepayan Foundation's Aranyana program promotes environmental sustainability through tree plantation, conservation, and climate awareness initiatives across Bangladesh.",
+        description: "Explore Deepayan Foundation's community projects focused on healthcare, education, food security, clean water, livelihoods, environmental conservation, and humanitarian support across Bangladesh.",
         card: "summary_large_image",
         images: [deepRec.src],
     },
