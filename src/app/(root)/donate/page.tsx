@@ -6,11 +6,13 @@ import { DonateView } from "src/sections/view/donate-view";
 
 export const metadata: Metadata = {
   title: "Donate",
+  description: "Support Deepayan Foundation's mission by donating to programs that provide education, healthcare, food, clean water, livelihoods, and hope to vulnerable communities in Bangladesh.",
   alternates: {
     canonical: '/donate',
   },
   openGraph: {
     title: "Donate – Deepayan Foundation",
+    description: "Support Deepayan Foundation's mission by donating to programs that provide education, healthcare, food, clean water, livelihoods, and hope to vulnerable communities in Bangladesh.",
     url: "https://www.deepayan.org/donate",
     images: [
       {
@@ -22,6 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: "Donate – Deepayan Foundation",
+    description: "Support Deepayan Foundation's mission by donating to programs that provide education, healthcare, food, clean water, livelihoods, and hope to vulnerable communities in Bangladesh.",
     card: "summary_large_image",
     images: [deepRec.src],
   },
