@@ -1,6 +1,6 @@
 'use client'
 
-import { Divider, Typography } from "@mui/material";
+import { Stack, Divider, Typography } from "@mui/material";
 
 import { banglaFont } from "src/theme/core";
 import { bgGradient, stylesMode, } from "src/theme/styles";
@@ -12,7 +12,7 @@ export type SectionTitleProps = {
 
 export function SectionTitle({ title, className }: SectionTitleProps) {
   return (
-    <div style={{ textAlign: 'center' }}>
+    <Stack sx={{ textAlign: 'center', mb: 8 }}>
       <Typography
         variant="h3"
         component="h3"
@@ -42,6 +42,6 @@ export function SectionTitle({ title, className }: SectionTitleProps) {
           },
         })}
       />
-    </div>
+    </Stack>
   );
 }

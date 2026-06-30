@@ -64,7 +64,6 @@ export function CommonView({
                         container
                         direction={{ xs: 'column-reverse', md: 'row' }}
                         spacing={4}
-                        sx={{ py: 8 }}
                     >
                         <Grid item xs={12} md={6} sx={{ display: 'flex', alignItems: 'center' }}>
                             <Stack spacing={2}>
