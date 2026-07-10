@@ -11,7 +11,7 @@ import { useTranslate } from "src/locales";
 
 import { Iconify } from "src/components/iconify";
 
-export function ContactsDetails() {
+export function ContactDetails() {
   const { t } = useTranslate('contact');
 
   const contacts = [
